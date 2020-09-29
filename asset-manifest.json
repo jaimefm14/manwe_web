@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/manwe_web/static/css/main.a695a21f.chunk.css",
+    "main.js": "/manwe_web/static/js/main.14dd4c2a.chunk.js",
+    "main.js.map": "/manwe_web/static/js/main.14dd4c2a.chunk.js.map",
+    "runtime-main.js": "/manwe_web/static/js/runtime-main.7c3933e8.js",
+    "runtime-main.js.map": "/manwe_web/static/js/runtime-main.7c3933e8.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/manwe_web/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.5c9696cf.chunk.js": "/manwe_web/static/js/2.5c9696cf.chunk.js",
+    "static/js/2.5c9696cf.chunk.js.map": "/manwe_web/static/js/2.5c9696cf.chunk.js.map",
+    "index.html": "/manwe_web/index.html",
+    "precache-manifest.f7d721232042b24ac967639b026bb6e6.js": "/manwe_web/precache-manifest.f7d721232042b24ac967639b026bb6e6.js",
+    "service-worker.js": "/manwe_web/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/manwe_web/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.a695a21f.chunk.css.map": "/manwe_web/static/css/main.a695a21f.chunk.css.map",
+    "static/js/2.5c9696cf.chunk.js.LICENSE.txt": "/manwe_web/static/js/2.5c9696cf.chunk.js.LICENSE.txt",
+    "static/media/Logo_Manwe_simple.png": "/manwe_web/static/media/Logo_Manwe_simple.45fc1475.png",
+    "static/media/form.css": "/manwe_web/static/media/Quicksand-Regular.216d43ee.ttf",
+    "static/media/dron.png": "/manwe_web/static/media/dron.14cfa086.png",
+    "static/media/esquiador.png": "/manwe_web/static/media/esquiador.505d63f7.png",
+    "static/media/fondo.png": "/manwe_web/static/media/fondo.1c4f48f9.png",
+    "static/media/raspberry.png": "/manwe_web/static/media/raspberry.32e47ecf.png",
+    "static/media/youtube.png": "/manwe_web/static/media/youtube.b3a41a9c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c3933e8.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.5c9696cf.chunk.js",
+    "static/css/main.a695a21f.chunk.css",
+    "static/js/main.14dd4c2a.chunk.js"
+  ]
+}
