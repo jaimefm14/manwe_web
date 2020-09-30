@@ -15,14 +15,19 @@ Repository to host manwe's project web
 ## Actulizar y subir cambios
 
 `git pull`
+
 `git add .`
+
 `git commit -m "mensaje"`
+
 `git push`
 
 ## Cambiar de rama
 
 `git pull`
+
 `git checkout nombreRama`
+
 `git pull`
 
 ## Ramas
