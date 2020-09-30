@@ -29,15 +29,19 @@ Rama en la donde estan los archivos ya en producción (github pages)
 ### master
 
 Rama de preproducción, se suben cambios que ya hayan sido testeados y aprobados.
+
 De esta rama pasarian a gh-pages
 
 ### develop
 
 Rama para el desarrollo de la web, aquí se hacen las pull request de las ramas de caracteristicas.
+
 De momento rama en la que se desarrollará todo
 
 ### feature/+
 
 Rama para realizar cambios y mejoras en caracteristicas de la web.
-El nombre se compone de *feature/* y el nombre de la característica a cambiar o añadir
+
+El nombre se compone de *feature/* y el nombre de la característica a cambiar o añadir.
+
 Ejemplo: feature/traduccionIngles
