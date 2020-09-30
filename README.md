@@ -2,7 +2,9 @@
 
 Repository to host manwe's project web
 
-[Documentación React](README_react.md)
+[Ayuda React](README_react.md)
+[Documentación Boostrap-React](react-bootstrap.github.io/)
+[Documentación Boostrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 
 ## Primeros pasos
 
