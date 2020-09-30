@@ -2,6 +2,8 @@
 
 Repository to host manwe's project web
 
+[Documentación React](README_react.md)
+
 ## Primeros pasos
 
 ### Descargar el repositorio
