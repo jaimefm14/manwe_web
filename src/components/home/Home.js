@@ -1,12 +1,7 @@
 import React from 'react';
 import './Home.css';
 import ReactGA from 'react-ga';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 
 import { Container, Row, Col } from 'react-bootstrap'
 
@@ -20,8 +15,6 @@ import dron from "./dron.png";
 import mobile from "./mobile.png";
 import youtube from "./youtube.png";
 import esp from "./spain.png";
-
-import contacto from "../form/contacto"
 
 
 var intro = {
