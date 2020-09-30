@@ -19,6 +19,12 @@ Repository to host manwe's project web
 `git commit -m "mensaje"`
 `git push`
 
+## Cambiar de rama
+
+`git pull`
+`git checkout nombreRama`
+`git pull`
+
 ## Ramas
 
 ### gh-pages
@@ -44,4 +50,4 @@ Rama para realizar cambios y mejoras en caracteristicas de la web.
 
 El nombre se compone de *feature/* y el nombre de la característica a cambiar o añadir.
 
-Ejemplo: feature/traduccionIngles
+Ejemplo: `feature/traduccionIngles`
