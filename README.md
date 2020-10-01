@@ -62,3 +62,11 @@ Rama para realizar cambios y mejoras en caracteristicas de la web.
 El nombre se compone de *feature/* y el nombre de la característica a cambiar o añadir.
 
 Ejemplo: `feature/traduccionIngles`
+
+## Google Analyics
+
+Para añadir google analytics a la web hay que añadir estos comandos despues de los *imports* y antes del *class*
+`import ReactGA from 'react-ga';`
+`const trackingId = "UA-30843009-3";`
+`ReactGA.initialize(trackingId);`
+`ReactGA.pageview(window.location.pathname + window.location.search);`
