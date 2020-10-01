@@ -5,6 +5,7 @@ import './index.css';
 
 import Home from './components/home/Home';
 import contacto from './components/form/contacto';
+// import aboutUs from './components/about_us/about_us';
 
 import * as serviceWorker from './serviceWorker';
 
@@ -17,7 +18,7 @@ ReactDOM.render(
       <Switch>
         {}
         <Route exact path='/' component={Home}/>
-        <Route exact path='/sobreNosotros' component={Home}/>
+        {/* <Route exact path='/sobreNosotros' component={aboutUs}/> */}
         <Route exact path='/contacto' component={contacto}/>
       </Switch>
     </div>

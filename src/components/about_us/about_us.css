@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Quicksand';
+    src:    url('../../fonts/Quicksand_Bold.otf'),
+            url('../../fonts/Quicksand_Bold_Oblique.otf'),
+            url('../../fonts/Quicksand_Book.otf'), 
+            url('../../fonts/Quicksand_Book_Oblique.otf'), 
+            url('../../fonts/Quicksand_Dash.otf'),
+            url('../../fonts/Quicksand_Light.otf'),
+            url('../../fonts/Quicksand_Light_Oblique.otf');    
+}
+
+.container-true{
+    font-family: Quicksand;
+}
+
+.background-grey{
+    background-color: lightgrey;
+}
+
+body
+{
+    background-image: none;
+}
+
+.row{
+    padding: 2em 4em;
+}
