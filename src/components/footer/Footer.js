@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import logo from "./Logo_Manwë.png"
-import background from "./background.jpeg";
+import logo from "../../asserts/images/Logo_Manwë.png"
+import background from "../../asserts/images/background.jpeg";
 
 import './Footer.css'
 

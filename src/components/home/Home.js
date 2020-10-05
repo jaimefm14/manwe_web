@@ -7,14 +7,14 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 import Footer from '../footer/Footer';
 
-import logo from "./Logo_Manwë.png"
-import Headerlogo from "./Logo_Manwe_simple.png"
-import sky from "./esquiador.png";
-import rpi from "./raspberry.png";
-import dron from "./dron.png";
-import mobile from "./mobile.png";
-import youtube from "./youtube.png";
-import esp from "./spain.png";
+import logo from "../../asserts/images/Logo_Manwë.png"
+import Headerlogo from "../../asserts/images/Logo_Manwe_simple.png"
+import sky from "../../asserts/images/esquiador.png";
+import rpi from "../../asserts/images/raspberry.png";
+import dron from "../../asserts/images/dron.png";
+import mobile from "../../asserts/images/mobile.png";
+import youtube from "../../asserts/images/youtube.png";
+import esp from "../../asserts/images/spain.png";
 
 
 var intro = {

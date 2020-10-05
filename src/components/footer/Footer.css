@@ -1,12 +1,12 @@
 @font-face{
     font-family: 'Poppins';
     font-weight: 400;
-    src: url('./Poppins-SemiBold.ttf')
+    src: url('../../asserts/fonts/Poppins-SemiBold.ttf')
 }
 @font-face{
     font-family: 'Poppins';
     font-weight: 'normal';
-    src: url('./Poppins-Regular.ttf')
+    src: url('../../asserts/fonts/Poppins-Regular.ttf')
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 }
 
 #footer {
-    background-image: url("./background.jpeg");
+    background-image: url("../../asserts/images/background.jpeg");
     width: 100%;
     padding: 0;
     margin: 0;

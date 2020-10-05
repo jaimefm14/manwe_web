@@ -3,8 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import './about_us.css';
 import Footer from '../footer/Footer';
 
-import station from '../../img/station.jpg';
-import esquiador from '../../img/esquiador.jpg'
+import station from '../../asserts/images/station.jpg';
+import esquiador from '../../asserts/images/esquiador.jpg'
 
 class aboutUs extends React.Component {
     render() {

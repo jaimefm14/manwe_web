@@ -1,23 +1,23 @@
 @font-face{
     font-family: 'Quicksand';
     font-weight: bold;
-    src: url('./Quicksand-Bold.ttf')
+    src: url('../../asserts/fonts/Quicksand-Bold.ttf')
 }
 @font-face{
     font-family: 'Quicksand';
     font-weight: normal;
-    src: url('./Quicksand-Regular.ttf')
+    src: url('../../asserts/fonts/Quicksand-Regular.ttf')
 }
 
 @font-face{
     font-family: 'Poppins';
     font-weight: bold;
-    src: url('./Poppins-Bold.ttf')
+    src: url('../../asserts/fonts/Poppins-Bold.ttf')
 }
 @font-face{
     font-family: 'Poppins';
     font-weight: normal;
-    src: url('./Poppins-Regular.ttf')
+    src: url('../../asserts/fonts/Poppins-Regular.ttf')
 }
 
 

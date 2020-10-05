@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Quicksand';
-    src:    url('../../fonts/Quicksand_Bold.otf'),
-            url('../../fonts/Quicksand_Bold_Oblique.otf'),
-            url('../../fonts/Quicksand_Book.otf'), 
-            url('../../fonts/Quicksand_Book_Oblique.otf'), 
-            url('../../fonts/Quicksand_Dash.otf'),
-            url('../../fonts/Quicksand_Light.otf'),
-            url('../../fonts/Quicksand_Light_Oblique.otf');    
+    src:    url('../../asserts/fonts/Quicksand_Bold.otf'),
+            url('../../asserts/fonts/Quicksand_Bold_Oblique.otf'),
+            url('../../asserts/fonts/Quicksand_Book.otf'), 
+            url('../../asserts/fonts/Quicksand_Book_Oblique.otf'), 
+            url('../../asserts/fonts/Quicksand_Dash.otf'),
+            url('../../asserts/fonts/Quicksand_Light.otf'),
+            url('../../asserts/fonts/Quicksand_Light_Oblique.otf');    
 }
 
 .container-true{

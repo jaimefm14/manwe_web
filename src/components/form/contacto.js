@@ -3,8 +3,8 @@ import './form.css';
 
 import { Form, Button, Col, Container, Image, Row } from 'react-bootstrap'
 
-import fondo from "./fondo.png";
-import Flecha from "./Flecha@2x.png";
+import fondo from "../../asserts/images/cover.png";
+import Flecha from "../../asserts/images/Flecha@2x.png";
 
 import Footer from '../footer/Footer';
 
