@@ -7,22 +7,25 @@ import station from '../../asserts/images/station.jpg';
 import esquiador from '../../asserts/images/esquiador.jpg'
 
 class aboutUs extends React.Component {
+    componentDidMount() {
+        document.title = "Manwë - Sobre Nosotros"
+    }
     render() {
         return (
-            <Container fluid = "true">
+            <Container fluid="true">
                 <div class="background-grey">
                     <Row>
                         <h1>
-                            Sobre Nosotros                        
+                            Sobre Nosotros
                         </h1>
                     </Row>
                     <Row>
-                        <Col><img width="90%" src={station} alt="estacion"/></Col>
+                        <Col><img width="90%" src={station} alt="estacion" /></Col>
                         <Col>
                             <p>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Perspiciatis id aspernatur voluptatibus molestiae omnis at officiis 
-                                asperiores inventore rerum? Maxime excepturi ipsa, cumque officia ipsum, 
+                                Perspiciatis id aspernatur voluptatibus molestiae omnis at officiis
+                                asperiores inventore rerum? Maxime excepturi ipsa, cumque officia ipsum,
                                 expedita quod alias incidunt atque eius aliquid voluptates tempore
                                 id eum libero, autem necessitatibus ab?
                             </p>

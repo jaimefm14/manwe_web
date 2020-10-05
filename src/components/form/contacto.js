@@ -47,6 +47,9 @@ var text3 = {
 }
 
 class contacto extends React.Component {
+  componentDidMount() {
+    document.title = "Manwë - Contacto"
+  }
   render() {
     return (
       <>

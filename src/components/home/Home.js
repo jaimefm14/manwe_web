@@ -51,38 +51,39 @@ ReactGA.initialize(trackingId);
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 class Home extends React.Component {
+    componentDidMount() {
+        document.title = "Manwë"
+    }
     render() {
         return (
             <>
                 <Container fluid>
-
-
                     <Container id="main">
-                    <Row>
-                        <Col className="align-self-end">
-                            <p class="language">ESP</p>
-                            <img src={esp} alt="Español" class="language"/>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col className="justify-content-start">
-                            <Link to="/sobreNosotros"><p>Sobre nosotros</p></Link>
-                        </Col>
-                        <Col>
-                            <Row className="justify-content-center">
-                                <img id="header" src={Headerlogo} alt="Manwë" />
-                            </Row>
-                            <Row className="justify-content-center">
-                                <img id="logo" src={logo} alt="Logo" class="img"/>
-                            </Row>
-                        </Col>
-                        <Col className="justify-content-end">
-                            <Link to="/contacto"><p style={{textAlign:`end`}}>Contacto</p></Link>
-                        </Col>
-                    </Row>
-                    <Row>
+                        <Row>
+                            <Col className="align-self-end">
+                                <p class="language">ESP</p>
+                                <img src={esp} alt="Español" class="language" />
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col className="justify-content-start">
+                                <Link to="/sobreNosotros"><p>Sobre nosotros</p></Link>
+                            </Col>
+                            <Col>
+                                <Row className="justify-content-center">
+                                    <img id="header" src={Headerlogo} alt="Manwë" />
+                                </Row>
+                                <Row className="justify-content-center">
+                                    <img id="logo" src={logo} alt="Logo" class="img" />
+                                </Row>
+                            </Col>
+                            <Col className="justify-content-end">
+                                <Link to="/contacto"><p style={{ textAlign: `end` }}>Contacto</p></Link>
+                            </Col>
+                        </Row>
+                        <Row>
 
-                    </Row>
+                        </Row>
                     </Container>
 
 
