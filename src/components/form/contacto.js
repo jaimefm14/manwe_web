@@ -1,6 +1,7 @@
 import React from 'react';
 import './form.scss';
 import ReactGA from 'react-ga';
+import { Link } from "react-router-dom";
 
 import { Form, Button, Col, Container, Image, Row } from 'react-bootstrap'
 
@@ -21,7 +22,7 @@ class contacto extends React.Component {
       <>
         <Row>
           <Col>
-            <img src={Flecha} alt="Flecha" class="Flecha" Link to="/Home" />
+            <Link to="/"><img src={Flecha} alt="Flecha" class="Flecha"/></Link>
           </Col>
           <Col md={{ span: 1, offset: 1 }}>{` `}</Col>
           <Form.Group controlId="formGrid-Contacta" >
