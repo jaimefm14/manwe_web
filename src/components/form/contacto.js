@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+import ReactGA from 'react-ga';
 import './form.scss';
 
 import { Form, Button, Col, Container, Image, Row } from 'react-bootstrap'
@@ -46,6 +48,10 @@ var text3 = {
   fontSize: `regular`
 }
 
+const trackingId = "UA-30843009-3";
+ReactGA.initialize(trackingId);
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 class contacto extends React.Component {
   componentDidMount() {
     document.title = "Manwë - Contacto"
@@ -57,7 +63,7 @@ class contacto extends React.Component {
       <>
         <Row>
           <Col>
-            <img src={Flecha} alt="Flecha" class="Flecha" />
+            <Link to="/"><img src={Flecha} alt="Flecha" class="Flecha" /></Link>
           </Col>
 
           <Form.Group controlId="formGrid-Contacta" >
