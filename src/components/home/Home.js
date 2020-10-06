@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.scss';
 import ReactGA from 'react-ga';
-import { BrowserRouter as Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { Container, Row, Col } from 'react-bootstrap'
 
@@ -59,7 +59,7 @@ class Home extends React.Component {
     render() {
         return (
             <>
-                <Container fluid>
+                <Container fluid="true">
                     <Container id="main">
                         <Row>
                             <Col className="align-self-end">
