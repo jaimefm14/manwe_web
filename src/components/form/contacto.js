@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-import ReactGA from 'react-ga';
 import './form.scss';
+import ReactGA from 'react-ga';
 
 import { Form, Button, Col, Container, Image, Row } from 'react-bootstrap'
 
@@ -10,64 +9,23 @@ import Flecha from "../../asserts/images/Flecha@2x.png";
 
 import Footer from '../footer/Footer';
 
-var flecha = {
-  backgroundImage: `url(${Flecha})`,
-  backgroundSize: `cover`,
-  maxHeight: `50vw`,
-  display: `grid`,
-  opacity: "1"
-}
 
-var header = {
-  height: `5vw`,
-  marginTop: `5vw`,
-}
-
-var text = {
-  background: `#F0F0F0`,
-  paddingLeft: `5vw`,
-  paddingTop: `5vw`,
-  lineHeight: `1`,
-  fontFamily: `Poppins`,
-  fontSize: `regular`
-}
-
-var text2 = {
-  paddingLeft: `5vw`,
-  paddingTop: `5vw`,
-  lineHeight: `1`,
-  fontFamily: `Quicksand`,
-  fontSize: `bold`
-}
-
-var text3 = {
-  paddingLeft: `5vw`,
-  paddingTop: `5vw`,
-  lineHeight: `8`,
-  fontFamily: `Poppins`,
-  fontSize: `regular`
-}
 
 const trackingId = "UA-30843009-3";
 ReactGA.initialize(trackingId);
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 class contacto extends React.Component {
-  componentDidMount() {
-    document.title = "Manwë - Contacto"
-    document.body.classList.remove(...document.body.classList);
-    document.body.classList.add('form')
-  }
   render() {
     return (
       <>
         <Row>
           <Col>
-            <Link to="/"><img src={Flecha} alt="Flecha" class="Flecha" /></Link>
+            <img src={Flecha} alt="Flecha" class="Flecha" Link to="/Home" />
           </Col>
-
+          <Col md={{ span: 1, offset: 1 }}>{` `}</Col>
           <Form.Group controlId="formGrid-Contacta" >
-            <Form.Label class="title1">Contacta</Form.Label>
+            <Form.Label class="title2">Contacta</Form.Label>
           </Form.Group>
         </Row>
 
@@ -111,7 +69,7 @@ class contacto extends React.Component {
 
         </Container>
 
-
+        <Footer></Footer>
 
       </>
     )
