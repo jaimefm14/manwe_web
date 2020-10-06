@@ -4,8 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import logo from "../../asserts/images/Logo_Manwë.png"
 import background from "../../asserts/images/background.jpeg";
 
-import './Footer.css'
-
+import './Footer.scss';
 
 var title = {
     fontSize: `1.5vw`,
@@ -26,7 +25,7 @@ class Footer extends React.Component {
     render() {
         return (
             <>
-            <Container id="footer" fluid>
+            <Container id="footer" fluid="true">
                 <Row className="justify-content-md-center">
                     <Col className="col-4">
                         <p style={title}>Contacto</p>

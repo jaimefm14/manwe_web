@@ -1,5 +1,5 @@
 import React from 'react';
-import './form.css';
+import './form.scss';
 
 import { Form, Button, Col, Container, Image, Row } from 'react-bootstrap'
 
@@ -49,6 +49,8 @@ var text3 = {
 class contacto extends React.Component {
   componentDidMount() {
     document.title = "Manwë - Contacto"
+    document.body.classList.remove(...document.body.classList);
+    document.body.classList.add('form')
   }
   render() {
     return (

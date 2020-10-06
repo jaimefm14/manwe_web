@@ -9,19 +9,18 @@
             url('../../asserts/fonts/Quicksand_Light_Oblique.otf');    
 }
 
-.container-true{
-    font-family: Quicksand;
-}
-
-.background-grey{
-    background-color: lightgrey;
-}
-
-body
-{
+.aboutUs{
     background-image: none;
-}
+    
+    .container-true{
+        font-family: Quicksand;
+    }
 
-.row{
-    padding: 2em 4em;
+    .background-grey{
+        background-color: lightgrey;
+    }
+
+    .row{
+        padding: 2em 4em;
+    }
 }

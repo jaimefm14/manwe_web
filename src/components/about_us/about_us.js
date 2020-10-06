@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import './about_us.css';
+import './about_us.scss';
 import Footer from '../footer/Footer';
 
 import station from '../../asserts/images/station.jpg';
@@ -9,6 +9,8 @@ import esquiador from '../../asserts/images/esquiador.jpg'
 class aboutUs extends React.Component {
     componentDidMount() {
         document.title = "Manwë - Sobre Nosotros"
+        document.body.classList.remove(...document.body.classList);
+        document.body.classList.add('aboutUs')
     }
     render() {
         return (

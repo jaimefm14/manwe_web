@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css';
+import './Home.scss';
 import ReactGA from 'react-ga';
 import { BrowserRouter as Link } from "react-router-dom";
 
@@ -53,6 +53,8 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 class Home extends React.Component {
     componentDidMount() {
         document.title = "Manwë"
+        document.body.classList.remove(...document.body.classList);
+        document.body.classList.add('home')
     }
     render() {
         return (
