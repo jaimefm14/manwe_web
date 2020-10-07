@@ -10,7 +10,12 @@ import Flecha from "../../asserts/images/Flecha@2x.png";
 
 import Footer from '../footer/Footer';
 
-
+var top = {
+  paddingLeft: `5vw`,
+  paddingTop: `5vw`,
+  fontFamily: `Poppins`,
+  fontSize: `bold`
+}
 
 const trackingId = "UA-30843009-3";
 ReactGA.initialize(trackingId);
@@ -20,15 +25,18 @@ class contacto extends React.Component {
   render() {
     return (
       <>
-        <Row>
-          <Col>
-            <Link to="/"><img src={Flecha} alt="Flecha" class="Flecha"/></Link>
-          </Col>
-          <Col md={{ span: 1, offset: 1 }}>{` `}</Col>
-          <Form.Group controlId="formGrid-Contacta" >
-            <Form.Label class="title2">Contacta</Form.Label>
-          </Form.Group>
-        </Row>
+
+        <Container>
+
+          <Row style={top}>
+            <Col>
+              <Link to="/"><img src={Flecha} alt="Flecha" class="Flecha" /></Link>
+            </Col>
+            <Col md={{ span: 9, offset: 1 }}>{` `}</Col>
+            <Col><p class="titletop">Contacto</p></Col>
+          </Row>
+
+        </Container>
 
         <Container>
 

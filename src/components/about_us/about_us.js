@@ -30,11 +30,7 @@ class aboutUs extends React.Component {
                         <Col><img width="90%" src={station} alt="estacion" /></Col>
                         <Col>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Perspiciatis id aspernatur voluptatibus molestiae omnis at officiis
-                                asperiores inventore rerum? Maxime excepturi ipsa, cumque officia ipsum,
-                                expedita quod alias incidunt atque eius aliquid voluptates tempore
-                                id eum libero, autem necessitatibus ab?
+                                Manwë nace de la pasión por la montaña y la tecnología para así, afianzar más aún la seguridad de los esquiadores y montañeros frente a los aludes de nieve.
                             </p>
                         </Col>
                     </Row>

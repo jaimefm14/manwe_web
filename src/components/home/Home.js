@@ -95,8 +95,10 @@ class Home extends React.Component {
                             <p class="title">Manwë</p>
                             <p class="subtitle">tu dron de rescate</p>
                             <hr class="line" />
-                            <p class="summary">Manwë Súlimo, personaje del legendarium creado por J. R. R. Tolkien, es el amo del aire y los vientos.<br />
-                                Nuestro sistema de rescate a bordo de un dron, te encontrará sea cual sea tu paradero.</p>
+                            <p class="summary">Esquiar o practicar alpinismo en cualquier parte con la seguridad de ser encontrado es ahora posible,
+                            </p>
+                            <p class="summary">ya seas enterrado por un alud o estés perdido entre la niebla o tormentas.
+                            </p>
                         </Col>
                         <Col>
                             <img src={sky} alt="esquiador" class="img" />
@@ -109,14 +111,13 @@ class Home extends React.Component {
                         <div class="vl"></div>
                         <Col>
                             <p class="summary2" style={{ paddingLeft: `8vw` }}>
-                                Manwë Súlimo, personaje del legendarium creado por J. R. R. Tolkien, es el amo del aire y los vientos.<br />
-                                Nuestro sistema de rescate a bordo de un dron, te encontrará sea cual sea tu paradero.</p>
+                            La tarjeta de emisión Manwë te mantendrá visible para el dron.
+                            Con su reducido tamaño podrás llevarla siempre encima.</p>
                         </Col>
                     </Row>
                     <Row style={text}>
                         <Col>
-                            <p class="summary2">Manwë Súlimo, personaje del legendarium creado por J. R. R. Tolkien, es el amo del aire y los vientos.<br />
-                                Nuestro sistema de rescate a bordo de un dron, te encontrará sea cual sea tu paradero.</p>
+                            <p class="summary2">El sistema de detección embarcado en un dron agiliza la búsqueda reduciendo el tiempo y la exposición de los rescatadores.</p>
                         </Col>
                         <Col>
                             <img id="dron" src={dron} alt="dron" class="img" />
@@ -138,7 +139,7 @@ class Home extends React.Component {
                             </Row>
                         </Col>
                         <Col>
-                            <p class="title-blue">Dirige el dron con tu app móvil</p>
+                            <p class="title-blue">Manwë App</p>
                         </Col>
                     </Row>
                     <Row>

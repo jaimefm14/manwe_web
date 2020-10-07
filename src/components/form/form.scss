@@ -81,15 +81,6 @@
         margin-bottom: 5%;
     }
 
-    .title {
-        font-size: 1.2vw;
-        padding-bottom: 0%;
-        margin-top: 10%;
-        margin-bottom: 1%;
-        font-family: 'Poppins';
-        font-weight: normal;
-    }
-
     .title1 {
         font-size: 1.2vw;
         padding-bottom: 0%;
@@ -99,21 +90,6 @@
         font-family: 'Poppins';
         font-weight: normal;
     }
-
-    .title3 {
-        font-weight: 500;
-        font-size: 3vw;
-        font-family: 'Poppins';
-        font-weight: bold;
-    }
-
-    .summary {
-        line-height: 1.6;
-        font-size: 2vw;
-        color:#333333;
-        font-family: 'Quicksand'
-    }
-
 
     .Aro {
         float: left;
@@ -144,13 +120,14 @@
 .Flecha {
     float: left;
     margin-left: 5%;
-    margin-top: 4%;
+    margin-top: 10%;
     height: 2.2vw;
 }
 
-.title2 {
-    font-size: 1.2vw;
-    margin-top: 60%;
+.titletop {
+    font-size: 1vw;
+    margin-top: 30%;
+    margin-right: 2px;
     font-family: 'Poppins';
     font-weight: bold;
     color:#5D5D5D;
