@@ -80,7 +80,7 @@ class Home extends React.Component {
                                 </Row>
                             </Col>
                             <Col className="justify-content-end">
-                                <Link to="/contacto"><p style={{ textAlign: `end` }}>Contacto</p></Link>
+                                <Link to="/form"><p style={{ textAlign: `end` }}>Contacto</p></Link>
                             </Col>
                         </Row>
                         <Row>

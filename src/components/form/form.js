@@ -3,9 +3,8 @@ import './form.scss';
 import ReactGA from 'react-ga';
 import { Link } from "react-router-dom";
 
-import { Form, Button, Col, Container, Image, Row } from 'react-bootstrap'
+import { Form, Col, Container, Row } from 'react-bootstrap'
 
-import fondo from "../../asserts/images/cover.png";
 import Flecha from "../../asserts/images/Flecha@2x.png";
 
 import Footer from '../footer/Footer';
@@ -21,7 +20,7 @@ const trackingId = "UA-30843009-3";
 ReactGA.initialize(trackingId);
 ReactGA.pageview(window.location.pathname + window.location.search);
 
-class contacto extends React.Component {
+class form extends React.Component {
   render() {
     return (
       <>
@@ -42,24 +41,24 @@ class contacto extends React.Component {
 
           <Form>
             <Form.Group as={Col} controlId="formGrid-Nombre">
-              <Form.Label class="title1">Nombre</Form.Label>
+              <Form.Label class="titlecontacta">Nombre</Form.Label>
               <Form.Control type="Nombre" placeholder="Nombre" />
             </Form.Group>
 
             <Row>
               <Form.Group controlId="formGrid-mail">
-                <Form.Label class="title1">Email</Form.Label>
+                <Form.Label class="titlecontacta">Email</Form.Label>
                 <Form.Control placeholder="Email" />
               </Form.Group>
               <Col md={{ span: 1, offset: 1 }}>{` `}</Col>
               <Form.Group controlId="formGrid-telefono" >
-                <Form.Label class="title1">Teléfono</Form.Label>
+                <Form.Label class="titlecontacta">Teléfono</Form.Label>
                 <Form.Control placeholder="Teléfono" />
               </Form.Group>
             </Row>
 
             <Form.Group controlId="formGrid-mensaje">
-              <Form.Label class="title1">Mensaje</Form.Label>
+              <Form.Label class="titlecontacta">Mensaje</Form.Label>
               <Form.Control as="textarea" rows="4" placeholder="Tu mensaje" />
             </Form.Group>
 
@@ -85,4 +84,4 @@ class contacto extends React.Component {
   }
 }
 
-export default contacto;
+export default form;
