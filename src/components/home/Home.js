@@ -30,6 +30,7 @@ var text = {
     background: `#FFFFFF`,
     paddingLeft: `5vw`,
     paddingTop: `5vw`,
+    paddingBottom: `2vw`,
     lineHeight: `1`,
     fontFamily: `Poppins`,
     fontSize: `bold`
