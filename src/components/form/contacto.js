@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 import { Form, Col, Container, Row } from 'react-bootstrap'
 
-import Flecha from "../../asserts/images/Flecha@2x.png";
+import arrowL from '../../asserts/images/arrow_l.png';
 
 import Footer from '../footer/Footer';
 
@@ -29,7 +29,7 @@ class form extends React.Component {
 
           <Row style={top}>
             <Col>
-              <Link to="/"><img src={Flecha} alt="Flecha" class="Flecha" /></Link>
+              <Link to="/"><img src={arrowL} alt="Flecha" class="Flecha" /></Link>
             </Col>
             <Col md={{ span: 9, offset: 1 }}>{` `}</Col>
             <Col><p class="titletop">Contacto</p></Col>
