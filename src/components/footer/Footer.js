@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from "react-router-dom";
+
 
 import logo from "../../asserts/images/Logo_Manwë.png"
 import background from "../../asserts/images/background.jpeg";
@@ -29,24 +31,27 @@ class Footer extends React.Component {
                 <Row className="justify-content-md-center">
                     <Col className="col-4">
                         <p style={title}>Contacto</p>
-                        <p style={text}>info@manwe.tech</p>
+                        <a href="mailto:info@manwe.tech"><p style={text}>info@manwe.tech</p></a>
 
                         <p style={title}>Teléfono</p>
-                        <p style={text}>+34 687155736</p>
+                        <a href="tel:+34687155736"><p style={text}>+34 687155736</p></a>
 
                         <p style={title}>Sede</p>
-                        <p style={text}>C\ Vera s/n, 46021 Valencia, España</p>
+                        <a href="http://maps.google.com/?q=Ciudad Politécnica de la Innovación (CPI) Edificio 8B Acceso N 4ª Planta, 46022 Valencia" 
+                            target='_blank' rel="noopener noreferrer">
+                            <p style={text}>C\ Vera s/n, 46021 Valencia, España</p>
+                        </a>
                     </Col>
                     <Col className="col-4">
                         <p style={title}>Políticas</p>
-                        <p style={text}>Políticas de privacidad</p>
-                        <p style={text}>Política de cookies</p>
-                        <p style={text}>Términos de uso</p>
+                        <Link to="#"><p style={text}>Políticas de privacidad</p></Link>
+                        <Link to="#"><p style={text}>Política de cookies</p></Link>
+                        <Link to="#"><p style={text}>Términos de uso</p></Link>
                     </Col>
                     <Col className="col-4">
                         <p style={title}>FAQ</p>
-                        <p style={text}>¿Tienes dudas?</p>
-                        <img src={logo} alt="logo" className="img"/>
+                        <Link to="/contacto"><p style={text}>¿Tienes dudas?</p></Link>
+                        <Link to="/"><img src={logo} alt="logo" className="img"/></Link>
                     </Col>
                 </Row>
             </Container>
