@@ -119,15 +119,19 @@
     }
 
     #mobile {
-        height: 15vw;
-        padding-top: 5vw;
+        height: 13vw;
+        padding-top: 3vw;
+        float: right;
     }
 
     .summary-blue {
         font-family: 'Quicksand';
         font-size: 2vw;
+        line-height: 1.5;
         color: #000000;
         padding-left: 2vw;
+        padding-top: 2vw;
+        padding-bottom: 5vw;
         margin-right: 3vw;
         float: left;
     }
@@ -138,15 +142,19 @@
         font-size: 5vw;
         color: #000000;
         margin-right: 3vw;
-        margin-top: 5vw;
+        margin-top: 3vw;
+        padding-left: 2vw;
         width: 50%;
-        float: right;
+        float: left;
+        text-align: right;
     }
 
     #youtube {
-        height: 25vw;
+        height: 30vw;
         float: left;
-        padding-left: 10vw;
+        position: absolute;
+        bottom: 3vw;
+        right: 0;
     }
 
     #image-blue {

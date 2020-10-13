@@ -21,6 +21,7 @@ var intro = {
     background: `#F0F0F0`,
     paddingLeft: `5vw`,
     paddingTop: `5vw`,
+    paddingBottom: `5vw`,
     lineHeight: `1`,
     fontFamily: `Poppins`,
     fontSize: `bold`
@@ -30,14 +31,16 @@ var text = {
     background: `#FFFFFF`,
     paddingLeft: `5vw`,
     paddingTop: `5vw`,
-    paddingBottom: `2vw`,
+    paddingBottom: `5vw`,
     lineHeight: `1`,
     fontFamily: `Poppins`,
     fontSize: `bold`
 }
 
 var blue = {
-    background: `#36A9E1`
+    background: `#36A9E1`,
+    paddingLeft: `5vw`,
+    paddingRight: `10vw`,
 }
 
 var white = {
@@ -126,25 +129,14 @@ class Home extends React.Component {
                     </Row>
                     <Row style={blue}>
                         <Col>
-                            <Row style={{ width: `150%` }}>
-                                <Col id="image-blue">
-                                    <img id="mobile" src={mobile} alt="Mobile" class="img" />
-                                </Col>
-                                <Col style={{ paddingTop: `5vw`, paddingRight: `5vw` }}>
-                                    <p class="summary-blue">Indica al dron el área a rastrear y él hará el resto.</p>
-                                    <p class="summary-blue">Una sencilla interfaz proporciona rapidez y eficacia a la hora de un rescate.</p>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <img id="youtube" src={youtube} alt="Usando movil" class="img" />
-                            </Row>
+                            <img id="youtube" src={youtube} alt="Usando movil" class="img" />
                         </Col>
                         <Col>
+                            <img id="mobile" src={mobile} alt="Mobile" class="img" />
                             <p class="title-blue">Manwë App</p>
+                            <p class="summary-blue">Indica al dron el área a rastrear y él hará el resto.<br/><br/>
+                                Una sencilla interfaz proporciona rapidez y eficacia a la hora de un rescate.</p>
                         </Col>
-                    </Row>
-                    <Row>
-                        <div style={white}></div>
                     </Row>
                     <Footer></Footer>
                 </Container>
