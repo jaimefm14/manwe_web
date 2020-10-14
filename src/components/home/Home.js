@@ -66,10 +66,17 @@ class Home extends React.Component {
                 <Container fluid="true">
                     <Container id="main">
                         <Row>
-                            <Col className="align-self-end">
-                                <p class="language">ESP</p>
-                                <img src={esp} alt="Español" class="language" />
-                            </Col>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown">ESP
+                                <span class="caret"></span></button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">ESP</a></li>
+                                    <li><a href="#">ENG</a></li>
+                                    <li><a href="#">FR</a></li>
+                                    <li><a href="#">ITA</a></li>
+                                    <li><a href="#">DEU</a></li>
+                                </ul>
+                            </div>
                         </Row>
                         <Row>
                             <Col className="justify-content-start">
@@ -115,7 +122,7 @@ class Home extends React.Component {
                         <div class="vl"></div>
                         <Col>
                             <p class="summary2" style={{ paddingLeft: `8vw` }}>
-                            La tarjeta de emisión Manwë te mantendrá visible para el dron.
+                                La tarjeta de emisión Manwë te mantendrá visible para el dron.
                             Con su reducido tamaño podrás llevarla siempre encima.</p>
                         </Col>
                     </Row>
@@ -134,7 +141,7 @@ class Home extends React.Component {
                         <Col>
                             <img id="mobile" src={mobile} alt="Mobile" class="img" />
                             <p class="title-blue">Manwë App</p>
-                            <p class="summary-blue">Indica al dron el área a rastrear y él hará el resto.<br/><br/>
+                            <p class="summary-blue">Indica al dron el área a rastrear y él hará el resto.<br /><br />
                                 Una sencilla interfaz proporciona rapidez y eficacia a la hora de un rescate.</p>
                         </Col>
                     </Row>
