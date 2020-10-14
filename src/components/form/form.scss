@@ -22,12 +22,54 @@
 
 .form{
     line-height: 1;
-    margin-top: 100px;
     background-image: url('../../asserts/images/Estacionesqui40op.png');
-    background-position-y: 100px;
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 1;                             /*afecta a la opacidad del contenedor*/
+
+    .button1 {
+        background-color: #36A9E1; /* Blue */
+        border: none;
+        color: black;
+        padding: 8px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        margin: 250px 250px;
+        cursor: pointer;
+        border-radius: 40px;
+        font: "Poppins";
+        font-weight: bold;
+        margin-left: 80%;
+        margin-top: 2%;
+    }
+    
+    .Flecha {
+        float: left;
+        margin-left: 5%;
+        margin-top: 10%;
+        height: 2.2vw;
+    }
+    
+    .titletop {
+        font-size: 1vw;
+        margin-top: 30%;
+        margin-right: 2px;
+        font-family: 'Poppins';
+        font-weight: bold;
+        color:#5D5D5D;
+    }
+    
+    .titlecontacta {
+        font-size: 1.2vw;
+        padding-bottom: 0%;
+        margin-top: 6.5%;
+        margin-right: 400px;
+        margin-bottom: 1%;
+        font-family: 'Poppins';
+        font-weight: normal;
+    }
 
     .Aro {
         float: left;
@@ -35,48 +77,4 @@
         margin-top: 4%;
         height: 4.2vw;
     }
-}
-
-.button1 {
-    background-color: #36A9E1; /* Blue */
-    border: none;
-    color: black;
-    padding: 8px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    margin: 250px 250px;
-    cursor: pointer;
-    border-radius: 40px;
-    font: "Poppins";
-    font-weight: bold;
-    margin-left: 80%;
-    margin-top: 2%;
-}
-
-.Flecha {
-    float: left;
-    margin-left: 5%;
-    margin-top: 10%;
-    height: 2.2vw;
-}
-
-.titletop {
-    font-size: 1vw;
-    margin-top: 30%;
-    margin-right: 2px;
-    font-family: 'Poppins';
-    font-weight: bold;
-    color:#5D5D5D;
-}
-
-.titlecontacta {
-    font-size: 1.2vw;
-    padding-bottom: 0%;
-    margin-top: 6.5%;
-    margin-right: 400px;
-    margin-bottom: 1%;
-    font-family: 'Poppins';
-    font-weight: normal;
 }

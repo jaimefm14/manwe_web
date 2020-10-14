@@ -21,6 +21,11 @@ ReactGA.initialize(trackingId);
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 class form extends React.Component {
+  componentDidMount() {
+    document.title = "Manwë"
+    document.body.classList.remove(...document.body.classList);
+    document.body.classList.add('form')
+}
   render() {
     return (
       <>
