@@ -1,11 +1,13 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ReactGA from 'react-ga';
+import { Link } from "react-router-dom";
 import './about_us.scss';
 import Footer from '../footer/Footer';
 
 import station from '../../asserts/images/station.jpg';
-import esquiador from '../../asserts/images/esquiador.jpg'
+import esquiador from '../../asserts/images/esquiador.jpg';
+import arrowR from '../../asserts/images/arrow_r.png';
 
 const trackingId = "UA-30843009-3";
 ReactGA.initialize(trackingId);
@@ -20,62 +22,46 @@ class aboutUs extends React.Component {
     render() {
         return (
             <Container fluid="true">
-                <div class="background-grey">
+                <Container fluid="true" className="background-grey">
                     <Row>
-                        <h1>
-                            Sobre Nosotros
-                        </h1>
+                        <Col md={6}>
+                            <p class="top-text">Sobre Nosotros</p>
+                        </Col>
+                        <Col md={{ span: 2, offset: 4 }}>
+                            <Link to="/"><img src={arrowR} className="arrow-img" alt="Volver"/></Link>
+                        </Col>
                     </Row>
                     <Row>
-                        <Col><img width="90%" src={station} alt="estacion" /></Col>
+                        <Col><img width="80%" src={station} alt="estacion" /></Col>
                         <Col>
                             <p>
                                 Manwë nace de la pasión por la montaña y la tecnología para así, afianzar más aún la seguridad de los esquiadores y montañeros frente a los aludes de nieve.
                             </p>
                         </Col>
                     </Row>
-                </div>
-                <Row>
-                    <h2>Nuestro Equipo</h2>
-                </Row>
-                <Row>
+                </Container>
+                <Row className="ourTeam">
                     <Col>
-                        <h3>Marcos Redondo</h3>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            Perspiciatis id aspernatur voluptatibus molestiae omnis at officiis
-                            asperiores inventore rerum? Maxime excepturi ipsa, cumque officia ipsum,
-                            expedita quod alias incidunt atque eius aliquid voluptates tempore
-                            id eum libero, autem necessitatibus ab?
-                        </p>
-                    </Col>
-                    <Col><img width="90%" src={esquiador} alt="estacion" /></Col>
-                </Row>
-                <Row>
-                    <Col><img width="90%" src={esquiador} alt="estacion" /></Col>
-                    <Col>
+                        <img width="90%" src={esquiador} alt="Juan Luis Hernández" />
                         <h3>Juan Luis Hernández</h3>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            Perspiciatis id aspernatur voluptatibus molestiae omnis at officiis
-                            asperiores inventore rerum? Maxime excepturi ipsa, cumque officia ipsum,
-                            expedita quod alias incidunt atque eius aliquid voluptates tempore
-                            id eum libero, autem necessitatibus ab?
+                            CTO. Director de tecnología.
                         </p>
                     </Col>
-                </Row>
-                <Row>
                     <Col>
+                        <img width="90%" src={esquiador} alt="Marcos Redondo" />
+                        <h3>Marcos Redondo</h3>
+                        <p>
+                            CEO. Director general.
+                        </p>
+                    </Col>
+                    <Col>
+                        <img width="90%" src={esquiador} alt="Jaime Fernández" />
                         <h3>Jaime Fernández</h3>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            Perspiciatis id aspernatur voluptatibus molestiae omnis at officiis
-                            asperiores inventore rerum? Maxime excepturi ipsa, cumque officia ipsum,
-                            expedita quod alias incidunt atque eius aliquid voluptates tempore
-                            id eum libero, autem necessitatibus ab?
+                            CIO. Director de información.
                         </p>
                     </Col>
-                    <Col><img width="90%" src={esquiador} alt="estacion" /></Col>
                 </Row>
                 <Footer></Footer>
             </Container>

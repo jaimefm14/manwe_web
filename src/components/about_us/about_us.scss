@@ -9,18 +9,46 @@
             url('../../asserts/fonts/Quicksand_Light_Oblique.otf');    
 }
 
+@font-face{
+    font-family: 'Poppins';
+    font-weight: bold;
+    src: url('../../asserts/fonts/Poppins-Bold.ttf')
+}
+@font-face{
+    font-family: 'Poppins';
+    font-weight: normal;
+    src: url('../../asserts/fonts/Poppins-Regular.ttf')
+}
+
 .aboutUs{
     background-image: none;
+    font-family: Quicksand;
     
-    .container-true{
-        font-family: Quicksand;
-    }
-
     .background-grey{
-        background-color: lightgrey;
+        background-image: url(../../asserts/images/about_us_background_40.png);
     }
 
     .row{
         padding: 2em 4em;
+    }
+
+    .ourTeam{
+        text-align: center;
+    }
+
+    img{
+        margin: 4em;
+    }
+
+    .arrow-img{
+        vertical-align: top;
+        margin: 0;
+    }
+
+    .top-text {
+        font-size: 10pt;
+        font-family: Poppins;
+        font-weight: bold;
+        color:#5D5D5D;
     }
 }

@@ -3,8 +3,11 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 
 
-import logo from "../../asserts/images/Logo_Manwë.png"
-import background from "../../asserts/images/background.jpeg";
+import logo from "../../asserts/images/Logo_Manwë.png";
+import facebook from "../../asserts/images/facebook.svg";
+import instagram from "../../asserts/images/instagram.svg";
+import linkedin from "../../asserts/images/linkedin.svg";
+import twitter from "../../asserts/images/twitter.svg";
 
 import './Footer.scss';
 
@@ -47,6 +50,18 @@ class Footer extends React.Component {
                         <Link to="#"><p style={text}>Políticas de privacidad</p></Link>
                         <Link to="#"><p style={text}>Política de cookies</p></Link>
                         <Link to="#"><p style={text}>Términos de uso</p></Link>
+                        <a href="https://www.linkedin.com/company/manwë" target="_blank" rel="noopener noreferrer">
+                            <img class="socialNetworks" src={linkedin} alt="Linkedin"/>
+                        </a>
+                        <a href="https://www.linkedin.com/company/manwë" target="_blank" rel="noopener noreferrer">
+                            <img class="socialNetworks" src={facebook} alt="Facebook"/>
+                        </a>
+                        <a href="https://www.linkedin.com/company/manwë" target="_blank" rel="noopener noreferrer">
+                            <img class="socialNetworks" src={twitter} alt="Twitter"/>
+                        </a>
+                        <a href="https://www.linkedin.com/company/manwë" target="_blank" rel="noopener noreferrer">
+                            <img class="socialNetworks" src={instagram} alt="Instagram"/>
+                        </a>
                     </Col>
                     <Col className="col-4">
                         <p style={title}>FAQ</p>
