@@ -20,12 +20,17 @@ const trackingId = "UA-30843009-3";
 ReactGA.initialize(trackingId);
 ReactGA.pageview(window.location.pathname + window.location.search);
 
+function sendMail() {
+  var div = document.getElementById("popUp");
+  div.removeAttribute("style");
+}
+
 class form extends React.Component {
   componentDidMount() {
     document.title = "Manwë"
     document.body.classList.remove(...document.body.classList);
     document.body.classList.add('form')
-}
+  }
   render() {
     return (
       <>
@@ -67,15 +72,15 @@ class form extends React.Component {
               <Form.Control as="textarea" rows="4" placeholder="Tu mensaje" />
             </Form.Group>
 
-            <button class="button1">
+            <button class="button1" onClick={sendMail}>
               Enviar
             </button>
 
           </Form>
 
-          <div class="alert alert-success alert-dismissible fade show" role="alert">
+          <div id="popUp" class="alert alert-success alert-dismissible fade show" role="alert" style={{ display: 'none' }}>
             <strong>¡Mensaje enviado!</strong> Pronto nos pondremos en contacto contigo.
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close" fontFamily="Poppins">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close" fontFamily="Poppins">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
