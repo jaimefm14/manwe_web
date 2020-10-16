@@ -28,6 +28,10 @@
         background-image: url(../../asserts/images/about_us_background_40.png);
     }
 
+    .col{
+        align-content: center;
+    }
+
     .row{
         padding: 2em 4em;
     }
@@ -37,7 +41,7 @@
     }
 
     img{
-        margin: 4em;
+        margin-bottom: 2em;
     }
 
     .arrow-img{
