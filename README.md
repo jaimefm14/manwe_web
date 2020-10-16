@@ -73,3 +73,14 @@ const trackingId = "UA-30843009-3";
 ReactGA.initialize(trackingId);
 ReactGA.pageview(window.location.pathname + window.location.search);
 ```
+## Deploy Github pages
+Para realizar un despliegue de la web hay que ejecutar los comandos:
+
+~~~
+npm run predeploy
+npm run deploy
+~~~
+
+Este despliegue crea una nueva rama (en caso de no exista ya) "gh-pages" en el repositorio y sube todos los archivos resultantes de la compilación que realiza react.
+
+Cuando se realice el despliegue, como tenemos un dominio personalizado, habrá que ir a las opciones del repositorio de github y configurar el dominio personalizado `manwe.tech` para que se vuelva a añadir el archivo CNAME.
