@@ -23,7 +23,16 @@
 .home {
     line-height: 1;
     margin: 0px;
-    background-image: url('../../asserts/images/cover.png');
+
+    #video {
+        position: absolute; 
+        background-attachment: fixed;
+        width: 100%;
+        margin-top: -8vw;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
 
     #main p {
         margin-top: 2vw;

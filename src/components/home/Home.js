@@ -7,6 +7,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 import Footer from '../footer/Footer';
 
+import video from "../../asserts/images/Home1080.mp4"
 import logo from "../../asserts/images/Logo_Manwë.png"
 import Headerlogo from "../../asserts/images/Logo_Manwe_simple.png"
 import sky from "../../asserts/images/esquiador.png";
@@ -63,8 +64,16 @@ class Home extends React.Component {
     render() {
         return (
             <>
-                <Container fluid="true">
-                    <Container id="main">
+
+                <Container id="main">
+                    <Container fluid="true">
+
+                        <Row>
+                            <video id="video" className='videoTag' autoPlay loop muted>
+                                <source src={video} type='video/mp4' />
+                            </video>
+                        </Row>
+
                         <Row>
                             <div class="dropdown">
                                 <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown">ESP
@@ -97,6 +106,7 @@ class Home extends React.Component {
                         <Row>
 
                         </Row>
+
                     </Container>
 
 
