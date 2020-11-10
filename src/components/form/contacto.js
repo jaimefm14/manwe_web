@@ -15,36 +15,41 @@ const trackingId = "UA-30843009-3";
 ReactGA.initialize(trackingId);
 ReactGA.pageview(window.location.pathname + window.location.search);
 
-function sendMail() {
 
-  var name = document.getElementById("formGrid-Nombre");
-  var mail = document.getElementById("formGrid-mail");
-  var tel = document.getElementById("formGrid-telefono");
-  var message = document.getElementById("formGrid-mensaje");
-  if (isEmpty(name.value) || isEmpty(mail.value) || isEmpty(message.value) || isEmpty(tel)) {
-    var div = document.getElementById("popUp-err");
-    div.removeAttribute("style");
-  }
-  else {
-    // Definimos el email
-    emailjs.send("service_9fos9bc","template_q931m3q",{
-      nombre: name.value,
-      telefono: tel.value,
-      mail: mail.value,
-      message: message.value,
+class form extends React.Component {
+
+  sendMail(e) {
+    e.preventDefault();
+
+    var name = document.getElementById("formGrid-Nombre");
+    var mail = document.getElementById("formGrid-mail");
+    var tel = document.getElementById("formGrid-telefono");
+    var message = document.getElementById("formGrid-mensaje");
+    if (isEmpty(name.value) || isEmpty(mail.value) || isEmpty(message.value) || isEmpty(tel)) {
+      var div = document.getElementById("popUp-err");
+      div.removeAttribute("style");
+    }
+    else {
+      // Definimos el email
+      emailjs.send("service_9fos9bc", "template_q931m3q", {
+        nombre: name.value,
+        telefono: tel.value,
+        mail: mail.value,
+        message: message.value,
       }, "user_6eCP7q20r4UHogzxMZmv0");
 
       var div = document.getElementById("popUp-ok");
       div.removeAttribute("style");
+    }
   }
-}
 
 
-class form extends React.Component {
+
   componentDidMount() {
     document.title = "Manwë"
     document.body.classList.remove(...document.body.classList);
-    document.body.classList.add('form')
+    document.body.classList.add('form');
+
   }
   render() {
     return (
@@ -76,7 +81,7 @@ class form extends React.Component {
               <Form.Label class="">Mensaje</Form.Label>
               <Form.Control as="textarea" rows="4" placeholder="Tu mensaje" />
             </Form.Group>
-            <button class="button1" onClick={sendMail}>
+            <button class="button1" onClick={this.sendMail.bind(this)}>
               Enviar
               </button>
           </Form>
