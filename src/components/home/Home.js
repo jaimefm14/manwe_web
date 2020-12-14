@@ -17,7 +17,6 @@ import mobile from "../../asserts/images/mobile.png";
 import youtube from "../../asserts/images/youtube.png";
 import esp from "../../asserts/images/spain.png";
 
-
 var intro = {
     background: `#F0F0F0`,
     paddingLeft: `5vw`,
@@ -44,13 +43,6 @@ var blue = {
     paddingRight: `10vw`,
 }
 
-var white = {
-    background: `#FFFFFF`,
-    width: `100%`,
-    height: `10vw`
-
-}
-
 const trackingId = "UA-30843009-3";
 ReactGA.initialize(trackingId);
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -65,8 +57,8 @@ class Home extends React.Component {
         return (
             <>
 
-                <Container id="main">
-                    <Container fluid="true">
+                <Container id="main" fluid="true">
+                    <Container fluid="true" style={{background: `#F0F0F0`}}>
 
                         <Row>
                             <video id="video" className='videoTag' autoPlay loop muted>
@@ -102,9 +94,6 @@ class Home extends React.Component {
                             <Col className="justify-content-end">
                                 <Link to="/contacto"><p style={{ textAlign: `end` }}>Contacto</p></Link>
                             </Col>
-                        </Row>
-                        <Row>
-
                         </Row>
 
                     </Container>
