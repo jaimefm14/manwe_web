@@ -16,6 +16,7 @@ import dron from "../../asserts/images/dron.png";
 import mobile from "../../asserts/images/mobile.png";
 import youtube from "../../asserts/images/youtube.png";
 import esp from "../../asserts/images/spain.png";
+import Menu from '../nav/menu';
 
 var intro = {
     background: `#F0F0F0`,
@@ -67,22 +68,10 @@ class Home extends React.Component {
                         </Row>
 
                         <Row>
-                            <div class="dropdown">
-                                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown">ESP
-                                <span class="caret"></span></button>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">ESP</a></li>
-                                    <li><a href="#">ENG</a></li>
-                                    <li><a href="#">FR</a></li>
-                                    <li><a href="#">ITA</a></li>
-                                    <li><a href="#">DEU</a></li>
-                                </ul>
-                            </div>
+                            <Menu></Menu>
                         </Row>
+
                         <Row>
-                            <Col className="justify-content-start">
-                                <Link to="/sobreNosotros"><p>Sobre nosotros</p></Link>
-                            </Col>
                             <Col>
                                 <Row className="justify-content-center">
                                     <img id="header" src={Headerlogo} alt="Manwë" />
@@ -90,9 +79,6 @@ class Home extends React.Component {
                                 <Row className="justify-content-center">
                                     <img id="logo" src={logo} alt="Logo" class="img" />
                                 </Row>
-                            </Col>
-                            <Col className="justify-content-end">
-                                <Link to="/contacto"><p style={{ textAlign: `end` }}>Contacto</p></Link>
                             </Col>
                         </Row>
 
