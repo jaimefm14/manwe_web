@@ -32,9 +32,9 @@
     }
     
     .row {
-        padding-left: 5vw;
-        padding-top: 5vw;
-        padding-right: 5vw;
+        padding-left: 3vw;
+        //padding-top: 5vw;
+        padding-right: 3vw;
         font-family: Poppins;
         font-size: bold;
         align-content: center;
@@ -73,6 +73,10 @@
         font-family: 'Poppins';
         font-weight: bold;
         color:#5D5D5D;
+    }
+
+    label {
+        font-weight: bold;
     }
     
     // .titlecontacta {

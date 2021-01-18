@@ -1,20 +1,24 @@
 import React from 'react';
 import './form.scss';
 import ReactGA from 'react-ga';
-import { Link } from "react-router-dom";
-
 import { Form, Col, Container, Row } from 'react-bootstrap'
-
-import arrowL from '../../asserts/images/arrow_l.png';
 
 import Footer from '../footer/Footer';
 
 import emailjs from 'emailjs-com';
+import { MenuContact } from '../nav/menu';
 
 const trackingId = "UA-30843009-3";
 ReactGA.initialize(trackingId);
 ReactGA.pageview(window.location.pathname + window.location.search);
 
+
+var contact = {
+  paddingTop: `5vw`,
+  paddingBottom: `5vw`,
+  float: `center`,
+  margin: `0 auto`
+}
 
 class form extends React.Component {
 
@@ -55,13 +59,10 @@ class form extends React.Component {
     return (
       <Container fluid="true">
         <Row>
-          <Col md={2}>
-            <Link to="/"><img src={arrowL} alt="Flecha" class="Flecha" /></Link>
-          </Col>
-          <Col md={{ span: 1, offset: 9 }}><p class="titletop">Contacto</p></Col>
+          <MenuContact></MenuContact>
         </Row>
         <Row>
-          <Form>
+          <Form style={contact}>
             <Form.Group controlId="formGrid-Nombre">
               <Form.Label className="">Nombre</Form.Label>
               <Form.Control type="Nombre" placeholder="Nombre" />

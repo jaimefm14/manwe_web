@@ -11,7 +11,6 @@ import * as serviceWorker from './serviceWorker';
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.min.js'
-import Menu from './components/nav/menu';
 
 ReactDOM.render(
   <Router>
@@ -21,7 +20,6 @@ ReactDOM.render(
         <Route exact path='/' component={Home}/>
         <Route exact path='/sobreNosotros' component={aboutUs}/>
         <Route exact path='/contacto' component={contacto}/>
-        <Route exact path='/menu' component={Menu}/>
       </Switch>
     </div>
   </Router>,

@@ -32,7 +32,7 @@ class Footer extends React.Component {
             <>
             <Container id="footer" fluid="true">
                 <Row className="justify-content-md-center">
-                    <Col className="col-4">
+                    <Col className="col-5">
                         <p style={title}>Contacto</p>
                         <a href="mailto:info@manwe.tech"><p style={text}>info@manwe.tech</p></a>
 
@@ -45,7 +45,7 @@ class Footer extends React.Component {
                             <p style={text}>C\ Vera s/n, 46021 Valencia, España</p>
                         </a>
                     </Col>
-                    <Col className="col-4">
+                    <Col className="col-5">
                         <p style={title}>Políticas</p>
                         <Link to="#"><p style={text}>Políticas de privacidad</p></Link>
                         <Link to="#"><p style={text}>Política de cookies</p></Link>
@@ -63,7 +63,7 @@ class Footer extends React.Component {
                             <img class="socialNetworks" src={instagram} alt="Instagram"/>
                         </a>
                     </Col>
-                    <Col className="col-4">
+                    <Col className="col-2">
                         <p style={title}>FAQ</p>
                         <Link to="/contacto"><p style={text}>¿Tienes dudas?</p></Link>
                         <Link to="/"><img src={logo} alt="logo" className="img"/></Link>

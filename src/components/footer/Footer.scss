@@ -9,11 +9,6 @@
     src: url('../../asserts/fonts/Poppins-Regular.ttf')
 }
 
-#footer .img {
-        height: 5vw;
-        margin-top: 1.5vw;
-}
-
 #footer {
     background-image: url("../../asserts/images/background.jpeg");
     width: 100%;
@@ -27,6 +22,12 @@
     }
 
     .row{
-        padding: 2em 4em;
+        padding: 2em 4em 0 4em;
     }
+
+    .img {
+        height: 6vw;
+        margin-top: 3.5vw;
+    }
+
 }

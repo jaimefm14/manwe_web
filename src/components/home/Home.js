@@ -1,7 +1,6 @@
 import React from 'react';
 import './Home.scss';
 import ReactGA from 'react-ga';
-import { Link } from "react-router-dom";
 
 import { Container, Row, Col } from 'react-bootstrap'
 
@@ -15,8 +14,7 @@ import rpi from "../../asserts/images/raspberry.png";
 import dron from "../../asserts/images/dron.png";
 import mobile from "../../asserts/images/mobile.png";
 import youtube from "../../asserts/images/youtube.png";
-import esp from "../../asserts/images/spain.png";
-import Menu from '../nav/menu';
+import { MenuHome } from '../nav/menu';
 
 var intro = {
     background: `#F0F0F0`,
@@ -68,7 +66,7 @@ class Home extends React.Component {
                         </Row>
 
                         <Row>
-                            <Menu></Menu>
+                            <MenuHome></MenuHome>
                         </Row>
 
                         <Row>
@@ -92,8 +90,7 @@ class Home extends React.Component {
                             <p class="subtitle">tu dron de rescate</p>
                             <hr class="line" />
                             <p class="summary">Esquiar o practicar alpinismo en cualquier parte con la seguridad de ser encontrado es ahora posible,
-                            </p>
-                            <p class="summary">ya seas enterrado por un alud o estés perdido entre la niebla o tormentas.
+                                ya seas enterrado por un alud o estés perdido entre la niebla o tormentas.
                             </p>
                         </Col>
                         <Col>
@@ -108,7 +105,7 @@ class Home extends React.Component {
                         <Col>
                             <p class="summary2" style={{ paddingLeft: `8vw` }}>
                                 La tarjeta de emisión Manwë te mantendrá visible para el dron.
-                            Con su reducido tamaño podrás llevarla siempre encima.</p>
+                                Con su reducido tamaño podrás llevarla siempre encima.</p>
                         </Col>
                     </Row>
                     <Row style={text}>
