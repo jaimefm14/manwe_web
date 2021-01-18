@@ -47,7 +47,7 @@ class Footer extends React.Component {
                     </Col>
                     <Col className="col-5">
                         <p style={title}>Políticas</p>
-                        <Link to="#"><p style={text}>Políticas de privacidad</p></Link>
+                        <Link to="politica-de-privacidad"><p style={text}>Políticas de privacidad</p></Link>
                         <Link to="#"><p style={text}>Política de cookies</p></Link>
                         <Link to="#"><p style={text}>Términos de uso</p></Link>
                         <a href="https://www.linkedin.com/company/manwë" target="_blank" rel="noopener noreferrer">

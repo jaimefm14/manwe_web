@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import arrowL from '../../asserts/images/arrow_l.png';
 import arrowR from '../../asserts/images/arrow_r.png';
+import arrowT from '../../asserts/images/arrow_t.png';
 
 var navBar = {
     width: `100%`,
@@ -77,6 +78,25 @@ export class MenuAboutUs extends React.Component {
                         <Nav className="ml-auto">
                             <Nav.Link href="#/" style={navLink}>
                                 <img src={arrowR} alt="Flecha" style={flecha} />
+                            </Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Navbar>
+            </>
+        )
+    }
+}
+
+export class MenuPoliticas extends React.Component {
+    render() {
+        return (
+            <>
+                <Navbar collapseOnSelect expand="lg" variant="light" style={navBar}>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="ml-flex">
+                            <Nav.Link href="#/" style={navLink}>
+                                <img src={arrowT} alt="Flecha" style={flecha} />
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

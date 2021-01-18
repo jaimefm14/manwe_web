@@ -1,0 +1,53 @@
+@font-face{
+    font-family: 'Quicksand';
+    font-weight: bold;
+    src: url('../../asserts/fonts/Quicksand-Bold.ttf')
+}
+@font-face{
+    font-family: 'Quicksand';
+    font-weight: normal;
+    src: url('../../asserts/fonts/Quicksand-Regular.ttf')
+}
+
+@font-face{
+    font-family: 'Poppins';
+    font-weight: bold;
+    src: url('../../asserts/fonts/Poppins-Bold.ttf')
+}
+@font-face{
+    font-family: 'Poppins';
+    font-weight: normal;
+    src: url('../../asserts/fonts/Poppins-Regular.ttf')
+}
+
+
+
+.privacidad{
+    .header {
+        width: 100%;
+        height: 15vw;
+        background-image: url('../../asserts/images/background_politicas.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        h1 {
+            font-weight: bold;
+            font-family: 'Poppins';
+            margin:0 auto;
+            color: rgba(0, 0, 0 ,1);
+            font-size: 5vw;
+        }
+    }
+    .text {
+        background-color: #F2EFEF;
+        padding-left: 15vw;
+        padding-right: 15vw;
+        font-family: 'Poppins';
+        font-size: 1vw;
+
+        .title {
+            font-size: 1.5vw;
+            font-weight: 600;
+        }
+    }
+}
