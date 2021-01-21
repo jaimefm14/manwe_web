@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.scss';
-import ReactGA from 'react-ga';
+
+import TagManager from 'react-gtm-module';
 
 import { Container, Row, Col } from 'react-bootstrap'
 
@@ -42,9 +43,11 @@ var blue = {
     paddingRight: `10vw`,
 }
 
-const trackingId = "UA-30843009-3";
-ReactGA.initialize(trackingId);
-ReactGA.pageview(window.location.pathname + window.location.search);
+const tagManagerArgs = {
+    gtmId: 'GTM-5LMQPWS'
+}
+
+TagManager.initialize(tagManagerArgs)
 
 class Home extends React.Component {
     componentDidMount() {

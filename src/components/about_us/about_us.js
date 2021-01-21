@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import ReactGA from 'react-ga';
+import TagManager from 'react-gtm-module';
 import './about_us.scss';
 import Footer from '../footer/Footer';
 
@@ -8,9 +8,11 @@ import station from '../../asserts/images/station.jpg';
 import esquiador from '../../asserts/images/esquiador.jpg';
 import { MenuAboutUs } from '../nav/menu';
 
-const trackingId = "UA-30843009-3";
-ReactGA.initialize(trackingId);
-ReactGA.pageview(window.location.pathname + window.location.search);
+const tagManagerArgs = {
+    gtmId: 'GTM-5LMQPWS'
+}
+
+TagManager.initialize(tagManagerArgs)
 
 class aboutUs extends React.Component {
     componentDidMount() {

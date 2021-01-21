@@ -1,6 +1,6 @@
 import React from 'react';
 import './form.scss';
-import ReactGA from 'react-ga';
+import TagManager from 'react-gtm-module';
 import { Form, Col, Container, Row } from 'react-bootstrap'
 
 import Footer from '../footer/Footer';
@@ -8,9 +8,11 @@ import Footer from '../footer/Footer';
 import emailjs from 'emailjs-com';
 import { MenuContact } from '../nav/menu';
 
-const trackingId = "UA-30843009-3";
-ReactGA.initialize(trackingId);
-ReactGA.pageview(window.location.pathname + window.location.search);
+const tagManagerArgs = {
+  gtmId: 'GTM-5LMQPWS'
+}
+
+TagManager.initialize(tagManagerArgs)
 
 
 var contact = {
@@ -46,8 +48,6 @@ class form extends React.Component {
       div.removeAttribute("style");
     }
   }
-
-
 
   componentDidMount() {
     document.title = "Manwë"
