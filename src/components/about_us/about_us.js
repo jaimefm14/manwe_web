@@ -55,9 +55,8 @@ class aboutUs extends React.Component {
                         </p>
                         <p>
                             Ingeníero Informatico por la Universidad Politécnica de Valencia. Aporta conocimientos computacionales y de 
-                            programación, que nos serán muy útiles a la hora del desarrollo de la parte software del sistema de detección, 
-                            así como de los sistemas de vuelo autónomo de dron. Pudiendo aportar, además, valores de trabajo en equipo, 
-                            estructuración del trabajo y “clean code”. <br/>
+                            programación, por lo que se encarga del desarrollo de la parte software del sistema de detección, 
+                            así como de los sistemas de vuelo autónomo de dron. <br/>
                             Actualmente continua formandose en el Master de Data Analytics impartido por 
                             la Escuela de Empresarios de Valencia, por lo que podrá seguir mejorando el sistema haciéndolo más robusto incorporando 
                             métodos de minería de datos y machine learning para así conseguir una mayor precisión a la hora de la búsqueda, 
@@ -75,9 +74,6 @@ class aboutUs extends React.Component {
                             Cuenta con experiencia en CAD y fabricación con materiales compuestos e impresión 3D enfocados a material de 
                             alpinismo y ciclismo/triatlón. Además, es encargado de la fabricación del fuselaje en fibra de carbono del UAV 
                             del equipo Hermes UPV.<br/>
-                            Con sus conocimientos aportará un gran valor a la parte de fabricación del prototipo, además de organizar y 
-                            guiar el proyecto por el mejor camino encargándose del diseño general y mecánico del sistema.<br/>
-                            Así mismo, aporta pensamiento crítico, adaptabilidad y cooperación son como "soft skills".
                         </p>
                     </Col>
                     <Col>
