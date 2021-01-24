@@ -78,7 +78,7 @@ class Home extends React.Component {
                                     <img id="header" src={Headerlogo} alt="Manwë" />
                                 </Row>
                                 <Row className="justify-content-center">
-                                    <img id="logo" src={logo} alt="Logo" class="img" />
+                                    <img id="logo" src={logo} alt="Logo" className="img" />
                                 </Row>
                             </Col>
                         </Row>
@@ -89,44 +89,44 @@ class Home extends React.Component {
 
                     <Row style={intro}>
                         <Col>
-                            <p class="title">Manwë</p>
-                            <p class="subtitle">tu dron de rescate</p>
-                            <hr class="line" />
-                            <p class="summary">Esquiar o practicar alpinismo en cualquier parte con la seguridad de ser encontrado es ahora posible,
+                            <p className="title">Manwë</p>
+                            <p className="subtitle">tu dron de rescate</p>
+                            <hr className="line" />
+                            <p className="summary">Esquiar o practicar alpinismo en cualquier parte con la seguridad de ser encontrado es ahora posible,
                                 ya seas enterrado por un alud o estés perdido entre la niebla o tormentas.
                             </p>
                         </Col>
                         <Col>
-                            <img src={sky} alt="esquiador" class="img" />
+                            <img src={sky} alt="esquiador" className="img" />
                         </Col>
                     </Row>
                     <Row style={text}>
                         <Col>
-                            <img id="rpi" src={rpi} alt="Raspberry Pi" class="img" />
+                            <img id="rpi" src={rpi} alt="Raspberry Pi" className="img" />
                         </Col>
-                        <div class="vl"></div>
+                        <div className="vl"></div>
                         <Col>
-                            <p class="summary2" style={{ paddingLeft: `8vw` }}>
+                            <p className="summary2" style={{ paddingLeft: `8vw` }}>
                                 La tarjeta de emisión Manwë te mantendrá visible para el dron.
                                 Con su reducido tamaño podrás llevarla siempre encima.</p>
                         </Col>
                     </Row>
                     <Row style={text}>
                         <Col>
-                            <p class="summary2">El sistema de detección embarcado en un dron agiliza la búsqueda reduciendo el tiempo y la exposición de los rescatadores.</p>
+                            <p className="summary2">El sistema de detección embarcado en un dron agiliza la búsqueda reduciendo el tiempo y la exposición de los rescatadores.</p>
                         </Col>
                         <Col>
-                            <img id="dron" src={dron} alt="dron" class="img" />
+                            <img id="dron" src={dron} alt="dron" className="img" />
                         </Col>
                     </Row>
                     <Row style={blue}>
                         <Col>
-                            <img id="youtube" src={youtube} alt="Usando movil" class="img" />
+                            <img id="youtube" src={youtube} alt="Usando movil" className="img" />
                         </Col>
                         <Col>
-                            <img id="mobile" src={mobile} alt="Mobile" class="img" />
-                            <p class="title-blue">Manwë App</p>
-                            <p class="summary-blue">Indica al dron el área a rastrear y él hará el resto.<br /><br />
+                            <img id="mobile" src={mobile} alt="Mobile" className="img" />
+                            <p className="title-blue">Manwë App</p>
+                            <p className="summary-blue">Indica al dron el área a rastrear y él hará el resto.<br /><br />
                                 Una sencilla interfaz proporciona rapidez y eficacia a la hora de un rescate.</p>
                         </Col>
                     </Row>

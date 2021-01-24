@@ -1,12 +1,18 @@
 import React from 'react';
-import ReactGA from 'react-ga';
+import TagManager from 'react-gtm-module';
 
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 
 import './politicas.scss';
 
 import {MenuPoliticas} from '../nav/menu';
 import Footer from '../footer/Footer';
+
+const tagManagerArgs = {
+    gtmId: 'GTM-5LMQPWS'
+}
+
+TagManager.initialize(tagManagerArgs)
 
 class PPrivacidad extends React.Component {
     componentDidMount() {

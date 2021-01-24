@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Quicksand";
+  font-weight: bold;
+  src: url("../../asserts/fonts/Quicksand-Bold.ttf");
+}
+@font-face {
+  font-family: "Quicksand";
+  font-weight: normal;
+  src: url("../../asserts/fonts/Quicksand-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: bold;
+  src: url("../../asserts/fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: normal;
+  src: url("../../asserts/fonts/Poppins-Regular.ttf");
+}
+.form {
+  background-image: url("../../asserts/images/Estacionesqui40op.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.form form {
+  width: 80%;
+}
+.form .row {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  font-family: Poppins;
+  font-size: bold;
+  align-content: center;
+}
+.form .button1 {
+  background-color: #36A9E1;
+  /* Blue */
+  border: none;
+  color: black;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 250px 250px;
+  cursor: pointer;
+  border-radius: 40px;
+  font: "Poppins";
+  font-weight: bold;
+  margin-left: 80%;
+  margin-top: 2%;
+  margin-bottom: 0;
+}
+.form .Flecha {
+  float: left;
+  margin-left: 5%;
+  margin-top: 10%;
+  height: 2.2vw;
+}
+.form .titletop {
+  font-size: 1vw;
+  margin-top: 30%;
+  margin-right: 2px;
+  font-family: "Poppins";
+  font-weight: bold;
+  color: #5D5D5D;
+}
+.form label {
+  font-weight: bold;
+}

@@ -32,7 +32,7 @@ class form extends React.Component {
     var tel = document.getElementById("formGrid-telefono");
     var message = document.getElementById("formGrid-mensaje");
     if (isEmpty(name.value) || isEmpty(mail.value) || isEmpty(message.value) || isEmpty(tel)) {
-      var div = document.getElementById("popUp-err");
+      let div = document.getElementById("popUp-err");
       div.removeAttribute("style");
     }
     else {
@@ -44,7 +44,7 @@ class form extends React.Component {
         message: message.value,
       }, "user_6eCP7q20r4UHogzxMZmv0");
 
-      var div = document.getElementById("popUp-ok");
+      let div = document.getElementById("popUp-ok");
       div.removeAttribute("style");
     }
   }
@@ -69,33 +69,33 @@ class form extends React.Component {
             </Form.Group>
             <Form.Row>
               <Form.Group as={Col} controlId="formGrid-mail">
-                <Form.Label class="">Email</Form.Label>
+                <Form.Label className="">Email</Form.Label>
                 <Form.Control placeholder="Email" />
               </Form.Group>
               <Form.Group as={Col} controlId="formGrid-telefono" >
-                <Form.Label class="">Teléfono</Form.Label>
+                <Form.Label className="">Teléfono</Form.Label>
                 <Form.Control placeholder="Teléfono" />
               </Form.Group>
             </Form.Row>
 
             <Form.Group controlId="formGrid-mensaje">
-              <Form.Label class="">Mensaje</Form.Label>
+              <Form.Label className="">Mensaje</Form.Label>
               <Form.Control as="textarea" rows="4" placeholder="Tu mensaje" />
             </Form.Group>
-            <button class="button1" onClick={this.sendMail.bind(this)}>
+            <button className="button1" onClick={this.sendMail.bind(this)}>
               Enviar
               </button>
           </Form>
         </Row>
-        <div id="popUp-ok" class="alert alert-success alert-dismissible fade show" role="alert" style={{ display: 'none' }}>
+        <div id="popUp-ok" className="alert alert-success alert-dismissible fade show" role="alert" style={{ display: 'none' }}>
           <strong>¡Mensaje enviado!</strong> Pronto nos pondremos en contacto contigo.
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close" fontFamily="Poppins">
+            <button type="button" className="close" data-dismiss="alert" aria-label="Close" fontFamily="Poppins">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div id="popUp-err" class="alert alert-danger alert-dismissible fade show" role="alert" style={{ display: 'none' }}>
+        <div id="popUp-err" className="alert alert-danger alert-dismissible fade show" role="alert" style={{ display: 'none' }}>
           <strong>¡Upps!</strong> Algún campo no está correcto.
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close" fontFamily="Poppins">
+            <button type="button" className="close" data-dismiss="alert" aria-label="Close" fontFamily="Poppins">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
@@ -108,5 +108,5 @@ class form extends React.Component {
 export default form;
 
 function isEmpty(value) {
-  return (typeof value == 'undefined' || value == null || value == "");
+  return (typeof value == 'undefined' || value == null || value === "");
 }

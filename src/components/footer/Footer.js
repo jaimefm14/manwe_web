@@ -51,16 +51,16 @@ class Footer extends React.Component {
                         <Link to="#"><p style={text}>Política de cookies</p></Link>
                         <Link to="#"><p style={text}>Términos de uso</p></Link>
                         <a href="https://www.linkedin.com/company/manwë" target="_blank" rel="noopener noreferrer">
-                            <img class="socialNetworks" src={linkedin} alt="Linkedin"/>
+                            <img className="socialNetworks" src={linkedin} alt="Linkedin"/>
                         </a>
                         <a href="https://www.linkedin.com/company/manwë" target="_blank" rel="noopener noreferrer">
-                            <img class="socialNetworks" src={facebook} alt="Facebook"/>
+                            <img className="socialNetworks" src={facebook} alt="Facebook"/>
                         </a>
                         <a href="https://www.linkedin.com/company/manwë" target="_blank" rel="noopener noreferrer">
-                            <img class="socialNetworks" src={twitter} alt="Twitter"/>
+                            <img className="socialNetworks" src={twitter} alt="Twitter"/>
                         </a>
                         <a href="https://www.linkedin.com/company/manwë" target="_blank" rel="noopener noreferrer">
-                            <img class="socialNetworks" src={instagram} alt="Instagram"/>
+                            <img className="socialNetworks" src={instagram} alt="Instagram"/>
                         </a>
                     </Col>
                     <Col className="col-2">
