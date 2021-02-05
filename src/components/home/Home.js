@@ -90,10 +90,10 @@ class Home extends React.Component {
                     <Row style={intro}>
                         <Col>
                             <p className="title">Manwë</p>
-                            <p className="subtitle">tu dron de rescate</p>
+                            <p className="subtitle">your rescue system</p>
                             <hr className="line" />
-                            <p className="summary">Esquiar o practicar alpinismo en cualquier parte con la seguridad de ser encontrado es ahora posible,
-                                ya seas enterrado por un alud o estés perdido entre la niebla o tormentas.
+                            <p className="summary">Skiing or mountaineering everywhere with safety of being found is now possible,
+                                buried by an avalanche or lost in fog or storms.
                             </p>
                         </Col>
                         <Col>
@@ -107,13 +107,15 @@ class Home extends React.Component {
                         <div className="vl"></div>
                         <Col>
                             <p className="summary2" style={{ paddingLeft: `8vw` }}>
-                                La tarjeta de emisión Manwë te mantendrá visible para el dron.
-                                Con su reducido tamaño podrás llevarla siempre encima.</p>
+                                Manwë's transmitter card will keep you visible to our detection device.
+                                With its small size you will be able to carry it always with you.</p>
                         </Col>
                     </Row>
                     <Row style={text}>
                         <Col>
-                            <p className="summary2">El sistema de detección embarcado en un dron agiliza la búsqueda reduciendo el tiempo y la exposición de los rescatadores.</p>
+                            <p className="summary2">Detection system speed up rescue time and reduce exposing to risk by rescuers.
+                            <br />
+                            It can be carried by hand, on rescue dogs and drones.</p>
                         </Col>
                         <Col>
                             <img id="dron" src={dron} alt="dron" className="img" />
@@ -126,8 +128,8 @@ class Home extends React.Component {
                         <Col>
                             <img id="mobile" src={mobile} alt="Mobile" className="img" />
                             <p className="title-blue">Manwë App</p>
-                            <p className="summary-blue">Indica al dron el área a rastrear y él hará el resto.<br /><br />
-                                Una sencilla interfaz proporciona rapidez y eficacia a la hora de un rescate.</p>
+                            <p className="summary-blue">A topographical app where a heat map of scanned areas is created.<br /><br />
+                                If multiple devices are used, they can be synchronized.</p>
                         </Col>
                     </Row>
                     <Footer></Footer>

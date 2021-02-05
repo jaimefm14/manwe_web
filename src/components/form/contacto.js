@@ -64,7 +64,7 @@ class form extends React.Component {
         <Row>
           <Form style={contact}>
             <Form.Group controlId="formGrid-Nombre">
-              <Form.Label className="">Nombre</Form.Label>
+              <Form.Label className="">Name</Form.Label>
               <Form.Control type="Nombre" placeholder="Nombre" />
             </Form.Group>
             <Form.Row>
@@ -73,28 +73,28 @@ class form extends React.Component {
                 <Form.Control placeholder="Email" />
               </Form.Group>
               <Form.Group as={Col} controlId="formGrid-telefono" >
-                <Form.Label className="">Teléfono</Form.Label>
+                <Form.Label className="">Phone</Form.Label>
                 <Form.Control placeholder="Teléfono" />
               </Form.Group>
             </Form.Row>
 
             <Form.Group controlId="formGrid-mensaje">
-              <Form.Label className="">Mensaje</Form.Label>
+              <Form.Label className="">Message</Form.Label>
               <Form.Control as="textarea" rows="4" placeholder="Tu mensaje" />
             </Form.Group>
             <button className="button1" onClick={this.sendMail.bind(this)}>
-              Enviar
+              Send
               </button>
           </Form>
         </Row>
         <div id="popUp-ok" className="alert alert-success alert-dismissible fade show" role="alert" style={{ display: 'none' }}>
-          <strong>¡Mensaje enviado!</strong> Pronto nos pondremos en contacto contigo.
+          <strong>Message sent!</strong> We will get in touch with you soon.
             <button type="button" className="close" data-dismiss="alert" aria-label="Close" fontFamily="Poppins">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div id="popUp-err" className="alert alert-danger alert-dismissible fade show" role="alert" style={{ display: 'none' }}>
-          <strong>¡Upps!</strong> Algún campo no está correcto.
+          <strong>Upps!</strong> Some fild is not completed.
             <button type="button" className="close" data-dismiss="alert" aria-label="Close" fontFamily="Poppins">
             <span aria-hidden="true">&times;</span>
           </button>

@@ -27,21 +27,22 @@ class aboutUs extends React.Component {
                     <Row>
                         <MenuAboutUs></MenuAboutUs>
                     </Row>
-                    <Row style={{padding: `2vw 7vw 2vw 7vw`}}>
+                    <Row style={{ padding: `2vw 7vw 2vw 7vw` }}>
                         <Col><img width="80%" src={station} alt="estacion" /></Col>
                         <Col>
                             <p>
-                                Manwë nace de la pasión por la montaña y la tecnología para así, afianzar la seguridad de los esquiadores y montañeros frente a los aludes de nieve.
-                                Nuestro proyecto consiste en el desarrollo de un dron de rescate, así como el software asociado a la busqueda de alpinistas sepultados por los aludes.<br/>
-                                Nuestro principal proposito es ofrecer un emisor de señal para particulares de costo muy bajo para ser encontrados por nuestro drone de rescate, el cuál, 
-                                poseerían estaciones de esquí, grupos de rescate y particulares, reduciendo en gran medida el tiempo de búsqueda con respecto a las tecnología existentes,
-                                aumentando así las probabilidades de supervivencia.
-                            </p>
-                            <br/>
+                                Manwë was born from a passion for the mountains and technology in order to strengthen the safety of skiers and mountaineers against snow avalanches.
+                                Our mission is to develop a detection system to find buried victims.
+                                </p>
+                            <br />
                             <p>
-                                El sistema de rescate consiste en un dron que, a través de una app móvil, se le asigna un área en un mapa para ser escaneada. Seguidamente, el dron comienza un 
-                                barrido del área marcada de manera autónoma. El sistema de detección integrado en el dron crea gradualmente una matriz asignando a cada celda la intensidad de 
-                                proximidad detectada respecto a la vícitma, creando así un mapa de calor que es mostrado en la app, indicando al rescastador dónde se localiza la víctima.
+                                This system is linked to a mobile app with topographic maps, in which a heat map is created where the scan is carried out. If several detection systems are used, these can be synchronized to speed up the search and not sweep areas already scanned previously.
+                                Manwë locates signals from our transmitter card which its size is like a credit card.
+                            </p>
+                            <br />
+                            <p>
+                                Our detection system is focused on rescue groups, ski resorts, security forces and individuals. The system can be carried by hand, on rescue dogs and drones to speed up the search.<br />
+                            Likewise, this device would also serve for landslides or earthquakes.
                             </p>
                         </Col>
                     </Row>
@@ -51,46 +52,34 @@ class aboutUs extends React.Component {
                         <img width="90%" src={esquiador} alt="Juan Luis Hernández" />
                         <h3>Juan Luis Hernández</h3>
                         <p>
-                            CTO. Director de tecnología.
+                            CTO. Chief Technology Officer.
                         </p>
                         <p>
-                            Ingeníero Informatico por la Universidad Politécnica de Valencia. Aporta conocimientos computacionales y de 
-                            programación, por lo que se encarga del desarrollo de la parte software del sistema de detección, 
-                            así como de los sistemas de vuelo autónomo de dron. <br/>
-                            Actualmente continua formandose en el Master de Data Analytics impartido por 
-                            la Escuela de Empresarios de Valencia, por lo que podrá seguir mejorando el sistema haciéndolo más robusto incorporando 
-                            métodos de minería de datos y machine learning para así conseguir una mayor precisión a la hora de la búsqueda, 
-                            así como mayor rapidez.
+                            Computer engineer from the Polytechnic University of València.
+                        <br />
+                        Currently he continues in the master of data analytics taught by the School of Entrepreneurs of Valencia.
                         </p>
                     </Col>
                     <Col>
                         <img width="90%" src={esquiador} alt="Marcos Redondo" />
                         <h3>Marcos Redondo</h3>
                         <p>
-                            CEO. Director general.
+                            CEO. Chief Executive Officer.
                         </p>
                         <p>
-                            Estudiante de ingeniería aeroespacial en la Universidad Politécnica de Valencia. 
-                            Cuenta con experiencia en CAD y fabricación con materiales compuestos e impresión 3D enfocados a material de 
-                            alpinismo y ciclismo/triatlón. Además, es encargado de la fabricación del fuselaje en fibra de carbono del UAV 
-                            del equipo Hermes UPV.<br/>
+                            Aerospace engineering student in Politechnic University of València.
                         </p>
                     </Col>
                     <Col>
                         <img width="90%" src={esquiador} alt="Jaime Fernández" />
                         <h3>Jaime Fernández</h3>
                         <p>
-                            CIO. Director de información.
+                            CIO. Chief Information Officer.
                         </p>
                         <p>
-                            Graduado en ingeniería electrónica industrial y automática por la universidad de Castilla-La Mancha. 
-                            Cuenta con dos años de experiencia en desarrollo de software embebido además de un año de experiencia en 
-                            desarrollo de aplicaciones web.<br/>
-                            Gracias a los conocimientos adquiridos en el ámbito laboral puedo trabajar en el desarrollo de software de 
-                            bajo nivel, así como en el diseño de la electrónica necesaria para dotar al sistema de los sensores y 
-                            actuadores que requiera.<br/>
-                            Por otro lado, también aporta conocimientos en el desarrollo de las aplicaciones web y 
-                            para smartphone necesarias para la visualización de datos.
+                            Industrial electronic and automatic engineer from the University of Castilla-La Mancha.
+                            <br />
+                            Increasing his knowledge with computer engineering master in University of Castilla-La Mancha.
                         </p>
                     </Col>
                 </Row>
