@@ -35,9 +35,8 @@
     }
 
     #main p {
-        margin-top: 2vw;
+        margin-top: 1vw;
         font-family: 'Poppins';
-        font-weight: bold;
         color: #5D5D5D;
     }
 
@@ -78,37 +77,36 @@
     }
 
     .title {
-        font-weight: bold !important;
-        font-size: 5vw !important;
+        font-weight: bold;
+        font-size: 3.5vw !important;
         padding-bottom: 1%;
     }
 
     .subtitle {
-        font-weight: 500;
-        font-size: 3vw;
+        font-weight: bold;
+        font-size: 2vw;
     }
 
     .summary {
         line-height: 1.6;
-        font-size: 1.8vw;
+        font-size: 1.5vw;
         color:#333333;
-        font-family: 'Quicksand';
-        font-weight: bold;
+        font-weight: 500;
+        width: 70%;
     }
 
     .summary2 {
         line-height: 1.6;
         font-size: 1.5vw;
         color:#5D5D5D;
-        font-family: 'Quicksand';
-        font-weight: normal;
+        font-weight: 500;
         padding-top: 3vw;
         padding-right: 10vw;
     }
 
     .img {
         float: left;
-        margin-left: 10%;
+        margin-left: 20%;
         margin-top: 2%;
         height: 30vw;
     }
@@ -116,10 +114,16 @@
     #rpi {
         float: left;
         height: 20vw;
+        margin-left: 0;
     }
 
     #dron {
         height: 15vw;
+        margin-left: 10%;
+    }
+
+    #mobile {
+        margin-left: 0;
     }
 
     .vl {
@@ -135,7 +139,7 @@
 
     .summary-blue {
         font-family: 'Quicksand';
-        font-size: 2vw;
+        font-size: 1.5vw;
         line-height: 1.5;
         color: #000000;
         padding-left: 2vw;
@@ -143,27 +147,29 @@
         padding-bottom: 5vw;
         margin-right: 3vw;
         float: left;
+        font-weight: normal;
     }
 
     .title-blue {
         font-family: 'Poppins';
         font-weight: bold;
-        font-size: 5vw;
+        font-size: 3.5vw;
         color: #000000;
         margin-right: 3vw;
-        margin-top: 3vw;
+        margin-top: 7vw !important; 
         padding-left: 2vw;
-        width: 50%;
+        width: 60%;
         float: left;
         text-align: right;
     }
 
     #youtube {
-        height: 30vw;
+        height: 25vw;
         float: left;
         position: absolute;
         bottom: 3vw;
         right: 0;
+        margin-right: 5vw;
     }
 
     #image-blue {
@@ -186,7 +192,7 @@
 
     .intro {
         background: #F0F0F0;
-        padding-left: 5vw;
+        padding-left: 8vw;
         padding-top: 5vw;
         padding-bottom: 5vw;
         line-height: 1;
@@ -196,7 +202,7 @@
 
     .text {
         background: #FFFFFF;
-        padding-left: 5vw;
+        padding-left: 8vw;
         padding-top: 5vw;
         padding-bottom: 5vw;;
         line-height: 1;
