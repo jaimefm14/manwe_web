@@ -183,6 +183,32 @@
         margin-top: 2vw;
         right: 0;
     }
+
+    .intro {
+        background: #F0F0F0;
+        padding-left: 5vw;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+        line-height: 1;
+        font-family: 'Poppins';
+        font-size: bold
+    }
+
+    .text {
+        background: #FFFFFF;
+        padding-left: 5vw;
+        padding-top: 5vw;
+        padding-bottom: 5vw;;
+        line-height: 1;
+        font-family: 'Poppins';
+        font-size: bold;
+    }
+
+    .blue {
+        background: #36A9E1;
+        padding-left: 5vw;
+        padding-right: 10vw;
+    }
 }
 
 .row {

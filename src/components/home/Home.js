@@ -1,12 +1,17 @@
+//Import React Modules
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import TagManager from 'react-gtm-module';
+import CookieBot from 'react-cookiebot/lib/CookieBot';
+
+//Import style
 import './Home.scss';
 
-import TagManager from 'react-gtm-module';
-
-import { Container, Row, Col } from 'react-bootstrap'
-
+//Import components
 import Footer from '../footer/Footer';
+import { MenuHome } from '../nav/menu';
 
+//Import asserts
 import video from "../../asserts/images/Home1080.mp4"
 import logo from "../../asserts/images/Logo_Manwë.png"
 import Headerlogo from "../../asserts/images/Logo_Manwe_simple.png"
@@ -15,37 +20,11 @@ import rpi from "../../asserts/images/raspberry.png";
 import dron from "../../asserts/images/dron.png";
 import mobile from "../../asserts/images/mobile.png";
 import youtube from "../../asserts/images/youtube.png";
-import { MenuHome } from '../nav/menu';
 
-import CookieBot from 'react-cookiebot/lib/CookieBot';
+/*Define constants*/
+//Cookiebot id
 const domainGroupId = '74b3d974-3d75-400d-9c33-aec6c042a072';
-
-var intro = {
-    background: `#F0F0F0`,
-    paddingLeft: `5vw`,
-    paddingTop: `5vw`,
-    paddingBottom: `5vw`,
-    lineHeight: `1`,
-    fontFamily: `Poppins`,
-    fontSize: `bold`
-}
-
-var text = {
-    background: `#FFFFFF`,
-    paddingLeft: `5vw`,
-    paddingTop: `5vw`,
-    paddingBottom: `5vw`,
-    lineHeight: `1`,
-    fontFamily: `Poppins`,
-    fontSize: `bold`
-}
-
-var blue = {
-    background: `#36A9E1`,
-    paddingLeft: `5vw`,
-    paddingRight: `10vw`,
-}
-
+//Tag manager id
 const tagManagerArgs = {
     gtmId: 'GTM-5LMQPWS'
 }
@@ -88,9 +67,7 @@ class Home extends React.Component {
 
                     </Container>
 
-
-
-                    <Row style={intro}>
+                    <Row className="intro">
                         <Col>
                             <p className="title">Manwë</p>
                             <p className="subtitle">your rescue system</p>
@@ -103,7 +80,7 @@ class Home extends React.Component {
                             <img src={sky} alt="esquiador" className="img" />
                         </Col>
                     </Row>
-                    <Row style={text}>
+                    <Row className="text">
                         <Col>
                             <img id="rpi" src={rpi} alt="Raspberry Pi" className="img" />
                         </Col>
@@ -114,7 +91,7 @@ class Home extends React.Component {
                                 With its small size you will be able to carry it always with you.</p>
                         </Col>
                     </Row>
-                    <Row style={text}>
+                    <Row className="text">
                         <Col>
                             <p className="summary2">Detection system speed up rescue time and reduce exposing to risk by rescuers.
                             <br />
@@ -124,7 +101,7 @@ class Home extends React.Component {
                             <img id="dron" src={dron} alt="dron" className="img" />
                         </Col>
                     </Row>
-                    <Row style={blue}>
+                    <Row className="blue">
                         <Col>
                             <img id="youtube" src={youtube} alt="Usando movil" className="img" />
                         </Col>
