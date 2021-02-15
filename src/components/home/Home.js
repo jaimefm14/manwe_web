@@ -17,6 +17,9 @@ import mobile from "../../asserts/images/mobile.png";
 import youtube from "../../asserts/images/youtube.png";
 import { MenuHome } from '../nav/menu';
 
+import CookieBot from 'react-cookiebot/lib/CookieBot';
+const domainGroupId = '74b3d974-3d75-400d-9c33-aec6c042a072';
+
 var intro = {
     background: `#F0F0F0`,
     paddingLeft: `5vw`,
@@ -58,7 +61,7 @@ class Home extends React.Component {
     render() {
         return (
             <>
-
+                <CookieBot domainGroupId={domainGroupId} language="EN"/>
                 <Container id="main" fluid="true">
                     <Container fluid="true" style={{background: `#F0F0F0`}}>
 
