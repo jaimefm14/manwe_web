@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7cfbaa7d65b94f60035e6a5f98c62520",
+    "revision": "f568d39e0dfd52281913b85be9115872",
     "url": "/index.html"
   },
   {
-    "revision": "b0f582832abfb87c7827",
+    "revision": "62781d561b72a35a83c9",
     "url": "/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "f71522183bcf606784f6",
-    "url": "/static/css/main.692a3720.chunk.css"
+    "revision": "b2c896572e8989789469",
+    "url": "/static/css/main.e67cd270.chunk.css"
   },
   {
-    "revision": "b0f582832abfb87c7827",
-    "url": "/static/js/2.67518085.chunk.js"
+    "revision": "62781d561b72a35a83c9",
+    "url": "/static/js/2.56f620f0.chunk.js"
   },
   {
     "revision": "eb94d6017d8f0c633f4acf9346a3ecc8",
-    "url": "/static/js/2.67518085.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.56f620f0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f71522183bcf606784f6",
-    "url": "/static/js/main.821de0d5.chunk.js"
+    "revision": "b2c896572e8989789469",
+    "url": "/static/js/main.109affb3.chunk.js"
   },
   {
     "revision": "96284dca2abc12696075",
@@ -94,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "faf9a2b337a646585dfd752f1b21fd91",
     "url": "/static/media/background.faf9a2b3.jpeg"
+  },
+  {
+    "revision": "a187f633407256344c1a8aa5dd75f34d",
+    "url": "/static/media/background_politicas.a187f633.png"
   },
   {
     "revision": "14cfa08649bd0b342a88aafffd72d794",

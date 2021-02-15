@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.692a3720.chunk.css",
-    "main.js": "/static/js/main.821de0d5.chunk.js",
-    "main.js.map": "/static/js/main.821de0d5.chunk.js.map",
+    "main.css": "/static/css/main.e67cd270.chunk.css",
+    "main.js": "/static/js/main.109affb3.chunk.js",
+    "main.js.map": "/static/js/main.109affb3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2812d00d.js",
     "runtime-main.js.map": "/static/js/runtime-main.2812d00d.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.67518085.chunk.js": "/static/js/2.67518085.chunk.js",
-    "static/js/2.67518085.chunk.js.map": "/static/js/2.67518085.chunk.js.map",
+    "static/js/2.56f620f0.chunk.js": "/static/js/2.56f620f0.chunk.js",
+    "static/js/2.56f620f0.chunk.js.map": "/static/js/2.56f620f0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.028add712bc496a2b77e2e997d602cb4.js": "/precache-manifest.028add712bc496a2b77e2e997d602cb4.js",
+    "precache-manifest.b6ac57d5a9e2b194520d1adf507b7a44.js": "/precache-manifest.b6ac57d5a9e2b194520d1adf507b7a44.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.692a3720.chunk.css.map": "/static/css/main.692a3720.chunk.css.map",
-    "static/js/2.67518085.chunk.js.LICENSE.txt": "/static/js/2.67518085.chunk.js.LICENSE.txt",
-    "static/media/form.scss": "/static/media/Quicksand-Regular.216d43ee.ttf",
+    "static/css/main.e67cd270.chunk.css.map": "/static/css/main.e67cd270.chunk.css.map",
+    "static/js/2.56f620f0.chunk.js.LICENSE.txt": "/static/js/2.56f620f0.chunk.js.LICENSE.txt",
+    "static/media/form.scss": "/static/media/Estacionesqui40op.30376fec.png",
     "static/media/Home1080.mp4": "/static/media/Home1080.de12c75a.mp4",
     "static/media/Logo_Manwe_simple.png": "/static/media/Logo_Manwe_simple.45fc1475.png",
-    "static/media/about_us.scss": "/static/media/about_us_background_40.dcbcf663.png",
+    "static/media/politicas.scss": "/static/media/background_politicas.a187f633.png",
     "static/media/Footer.scss": "/static/media/background.faf9a2b3.jpeg",
+    "static/media/about_us.scss": "/static/media/about_us_background_40.dcbcf663.png",
     "static/media/dron.png": "/static/media/dron.14cfa086.png",
     "static/media/esquiador.jpg": "/static/media/esquiador.4226b070.jpg",
     "static/media/esquiador.png": "/static/media/esquiador.505d63f7.png",
@@ -33,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.2812d00d.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.67518085.chunk.js",
-    "static/css/main.692a3720.chunk.css",
-    "static/js/main.821de0d5.chunk.js"
+    "static/js/2.56f620f0.chunk.js",
+    "static/css/main.e67cd270.chunk.css",
+    "static/js/main.109affb3.chunk.js"
   ]
 }
