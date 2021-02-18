@@ -50,15 +50,10 @@ class Home extends React.Component {
                             </video>
                         </Row>
 
-                        <Row>
-                            <MenuHome></MenuHome>
-                        </Row>
+                        <MenuHome></MenuHome>
 
-                        <Row>
+                        <Row style={{paddingTop:'5vw'}}>
                             <Col>
-                                <Row className="justify-content-center">
-                                    <img id="header" src={Headerlogo} alt="Manwë" />
-                                </Row>
                                 <Row className="justify-content-center">
                                     <img id="logo" src={logo} alt="Logo" className="img" />
                                 </Row>

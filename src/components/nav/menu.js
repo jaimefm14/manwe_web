@@ -1,12 +1,15 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
-import arrowL from '../../asserts/images/arrow_l.png';
-import arrowR from '../../asserts/images/arrow_r.png';
+import { Navbar, Nav, Col } from 'react-bootstrap';
 import arrowT from '../../asserts/images/arrow_t.png';
+import logo from '../../asserts/images/Logo_Manwe_simple.png';
 
 var navBar = {
-    width: `100%`,
-    paddingTop: `3vw`
+    // paddingTop: '1vw'
+    backgroundColor: 'rgba(240,240,240,0.7)'
+}
+
+var navImg = {
+    display: 'flex',
 }
 
 var navLink = {
@@ -14,8 +17,9 @@ var navLink = {
     paddingRight: `2vw`,
     fontFamily: `Poppins`,
     fontWeight: 700,
-    fontSize: `1.3vw`,
-    color: `black`
+    fontSize: `2vw`,
+    color: `rgb(80,80,80)`,
+    textAlign: 'center'
 }
 
 var flecha = {
@@ -27,15 +31,20 @@ export class MenuHome extends React.Component {
     render() {
         return (
             <>
-                <Navbar collapseOnSelect expand="lg" variant="light" style={navBar}>
+                <Navbar collapseOnSelect class="justify-content-between" expand="lg" variant="light" fixed="top" style={navBar}>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="ml-flex">
+                    <Navbar.Collapse className="justify-content-between" id="responsive-navbar-nav">
+                        <Col className="justify-content-center">
                             <Nav.Link href="#/sobreNosotros" style={navLink}>Sobre Nosotros</Nav.Link>
-                        </Nav>
-                        <Nav className="ml-auto">
-                            <Nav.Link href="#/contacto" style={navLink}>Contacto</Nav.Link>
-                        </Nav>
+                        </Col>
+                        <Col className="justify-content-center" style={navImg}>
+                            <Navbar.Brand href="#/" >
+                                <img alt="manwe logo" src={logo} width="auto" height="50vw"/>
+                            </Navbar.Brand>                       
+                        </Col>
+                        <Col className="justify-content-center">
+                            <Nav.Link href="#/contacto" style={navLink}>Contacto</Nav.Link> 
+                        </Col>
                     </Navbar.Collapse>
                 </Navbar>
             </>
@@ -43,49 +52,7 @@ export class MenuHome extends React.Component {
     }
 }
 
-export class MenuContact extends React.Component {
-    render() {
-        return (
-            <>
-                <Navbar collapseOnSelect expand="lg" variant="light" style={navBar}>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="ml-flex">
-                            <Nav.Link href="#/" style={navLink}>
-                                <img src={arrowL} alt="Flecha" style={flecha} />
-                            </Nav.Link>
-                        </Nav>
-                        <Nav className="ml-auto">
-                            <Nav.Link href="#/sobreNosotros" style={navLink}>Sobre Nosotros</Nav.Link>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Navbar>
-            </>
-        )
-    }
-}
 
-export class MenuAboutUs extends React.Component {
-    render() {
-        return (
-            <>
-                <Navbar collapseOnSelect expand="lg" variant="light" style={navBar}>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="ml-flex">
-                            <Nav.Link href="#/contacto" style={navLink}>Contacto</Nav.Link>
-                        </Nav>
-                        <Nav className="ml-auto">
-                            <Nav.Link href="#/" style={navLink}>
-                                <img src={arrowR} alt="Flecha" style={flecha} />
-                            </Nav.Link>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Navbar>
-            </>
-        )
-    }
-}
 
 export class MenuPoliticas extends React.Component {
     render() {

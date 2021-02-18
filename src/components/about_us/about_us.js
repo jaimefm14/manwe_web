@@ -6,7 +6,7 @@ import Footer from '../footer/Footer';
 
 import station from '../../asserts/images/station.jpg';
 import esquiador from '../../asserts/images/esquiador.jpg';
-import { MenuAboutUs } from '../nav/menu';
+import { MenuHome } from '../nav/menu';
 
 const tagManagerArgs = {
     gtmId: 'GTM-5LMQPWS'
@@ -23,11 +23,9 @@ class aboutUs extends React.Component {
     render() {
         return (
             <Container fluid="true">
-                <Container fluid="true" className="background-grey">
-                    <Row>
-                        <MenuAboutUs></MenuAboutUs>
-                    </Row>
-                    <Row style={{ padding: `2vw 7vw 2vw 7vw` }}>
+                <MenuHome></MenuHome>
+                <Container fluid="true" className="background-grey" style={ {paddingTop:'12vw'} }>
+                    <Row style={{ padding: `2vw 7vw 2vw 7vw` }} >
                         <Col><img width="80%" src={station} alt="estacion" /></Col>
                         <Col>
                             <p>
