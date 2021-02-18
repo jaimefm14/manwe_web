@@ -6,6 +6,7 @@ import Footer from '../footer/Footer';
 
 import station from '../../asserts/images/station.jpg';
 import esquiador from '../../asserts/images/esquiador.jpg';
+import fotoJaime from '../../asserts/images/jaime.jpg';
 import { MenuHome } from '../nav/menu';
 
 const tagManagerArgs = {
@@ -69,7 +70,7 @@ class aboutUs extends React.Component {
                         </p>
                     </Col>
                     <Col>
-                        <img width="90%" src={esquiador} alt="Jaime Fernández" />
+                        <img width="90%" src={fotoJaime} alt="Jaime Fernández" />
                         <h3>Jaime Fernández</h3>
                         <p>
                             CIO. Chief Information Officer.
