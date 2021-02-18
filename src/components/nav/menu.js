@@ -5,7 +5,7 @@ import logo from '../../asserts/images/Logo_Manwe_simple.png';
 
 var navBar = {
     // paddingTop: '1vw'
-    backgroundColor: 'rgba(240,240,240,0.7)'
+    backgroundColor: 'rgba(240,240,240,1)'
 }
 
 var navImg = {
@@ -17,7 +17,7 @@ var navLink = {
     paddingRight: `2vw`,
     fontFamily: `Poppins`,
     fontWeight: 700,
-    fontSize: `2vw`,
+    fontSize: `1.3em`,
     color: `rgb(80,80,80)`,
     textAlign: 'center'
 }
@@ -39,7 +39,7 @@ export class MenuHome extends React.Component {
                         </Col>
                         <Col className="justify-content-center" style={navImg}>
                             <Navbar.Brand href="#/" >
-                                <img alt="manwe logo" src={logo} width="auto" height="50vw"/>
+                                <img alt="manwe logo" src={logo} width="auto" height="50vw" style={{marginBottom: 0}}/>
                             </Navbar.Brand>                       
                         </Col>
                         <Col className="justify-content-center">
