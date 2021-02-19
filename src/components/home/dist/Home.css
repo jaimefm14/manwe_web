@@ -104,8 +104,8 @@
   float: left;
   height: 20vw;
 }
-.home #dron {
-  height: 15vw;
+.home #tarjeta {
+ width: 80%;
 }
 .home .vl {
   border-left: 4px solid #36A9E1;

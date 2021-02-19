@@ -16,8 +16,8 @@ import video from "../../asserts/images/Home1080.mp4"
 import logo from "../../asserts/images/Logo_Manwë.png"
 import Headerlogo from "../../asserts/images/Logo_Manwe_simple.png"
 import sky from "../../asserts/images/esquiador.png";
+import tarjeta from "../../asserts/images/tarjeta.png";
 import rpi from "../../asserts/images/raspberry.png";
-import dron from "../../asserts/images/dron.png";
 import mobile from "../../asserts/images/mobile.png";
 import youtube from "../../asserts/images/youtube.png";
 
@@ -77,7 +77,7 @@ class Home extends React.Component {
                     </Row>
                     <Row className="text">
                         <Col>
-                            <img id="rpi" src={rpi} alt="Raspberry Pi" className="img" />
+                            <img id="tarjeta" src={tarjeta} alt="Tarjeta Manwe" className="img" />
                         </Col>
                         <div className="vl"></div>
                         <Col>
@@ -93,7 +93,7 @@ class Home extends React.Component {
                             It can be carried by hand, on rescue dogs and drones.</p>
                         </Col>
                         <Col>
-                            <img id="dron" src={dron} alt="dron" className="img" />
+                            <img id="rpi" src={rpi} alt="Raspberry" className="img" />
                         </Col>
                     </Row>
                     <Row className="blue">
