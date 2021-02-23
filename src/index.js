@@ -7,6 +7,7 @@ import Home from './components/home/Home';
 import contacto from './components/form/contacto';
 import aboutUs from './components/about_us/about_us';
 import PPrivacidad from './components/politicas/privacidad';
+import PCookies from './components/politicas/cookies';
 
 import * as serviceWorker from './serviceWorker';
 
@@ -22,6 +23,7 @@ ReactDOM.render(
         <Route exact path='/sobreNosotros' component={aboutUs}/>
         <Route exact path='/contacto' component={contacto}/>
         <Route exact path='/politica-de-privacidad' component={PPrivacidad}/>
+        <Route exact path='/politica-de-cookies' component={PCookies}/>
       </Switch>
     </div>
   </Router>,
