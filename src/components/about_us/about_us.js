@@ -6,6 +6,7 @@ import Footer from '../footer/Footer';
 
 import station from '../../asserts/images/station.jpg';
 import esquiador from '../../asserts/images/esquiador.jpg';
+import fotomarcos from '../../asserts/images/fotomarcos.JPG';
 import fotoJaime from '../../asserts/images/jaime.jpg';
 import { MenuHome } from '../nav/menu';
 
@@ -60,7 +61,7 @@ class aboutUs extends React.Component {
                         </p>
                     </Col>
                     <Col>
-                        <img width="90%" src={esquiador} alt="Marcos Redondo" />
+                        <img width="85%" src={fotomarcos} alt="Marcos Redondo" />
                         <h3>Marcos Redondo</h3>
                         <p>
                             CEO. Chief Executive Officer.
