@@ -63,7 +63,7 @@ class form extends React.Component {
           <Form style={contact}>
             <Form.Group controlId="formGrid-Nombre">
               <Form.Label className="">Name</Form.Label>
-              <Form.Control type="Nombre" placeholder="Nombre" />
+              <Form.Control type="Nombre" placeholder="Name" />
             </Form.Group>
             <Form.Row>
               <Form.Group as={Col} controlId="formGrid-mail">
@@ -72,13 +72,13 @@ class form extends React.Component {
               </Form.Group>
               <Form.Group as={Col} controlId="formGrid-telefono" >
                 <Form.Label className="">Phone</Form.Label>
-                <Form.Control placeholder="Teléfono" />
+                <Form.Control placeholder="Phone number" />
               </Form.Group>
             </Form.Row>
 
             <Form.Group controlId="formGrid-mensaje">
               <Form.Label className="">Message</Form.Label>
-              <Form.Control as="textarea" rows="4" placeholder="Tu mensaje" />
+              <Form.Control as="textarea" rows="4" placeholder="Your message" />
             </Form.Group>
             <button className="button1" onClick={this.sendMail.bind(this)}>
               Send

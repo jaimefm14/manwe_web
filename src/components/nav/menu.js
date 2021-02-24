@@ -35,7 +35,7 @@ export class MenuHome extends React.Component {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse className="justify-content-between" id="responsive-navbar-nav">
                         <Col className="justify-content-center">
-                            <Nav.Link href="#/sobreNosotros" style={navLink}>Sobre Nosotros</Nav.Link>
+                            <Nav.Link href="#/sobreNosotros" style={navLink}>About us</Nav.Link>
                         </Col>
                         <Col className="justify-content-center" style={navImg}>
                             <Navbar.Brand href="#/" >
@@ -43,7 +43,7 @@ export class MenuHome extends React.Component {
                             </Navbar.Brand>                       
                         </Col>
                         <Col className="justify-content-center">
-                            <Nav.Link href="#/contacto" style={navLink}>Contacto</Nav.Link> 
+                            <Nav.Link href="#/contacto" style={navLink}>Contact</Nav.Link> 
                         </Col>
                     </Navbar.Collapse>
                 </Navbar>

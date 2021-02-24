@@ -33,10 +33,10 @@ class Footer extends React.Component {
                 <Container id="footer" fluid="true">
                     <Row className="justify-content-md-center">
                         <Col className="col-5">
-                            <p style={title}>Contacto</p>
+                            <p style={title}>Contact</p>
                             <a href="mailto:info@manwe.tech"><p style={text}>info@manwe.tech</p></a>
 
-                            <p style={title}>Teléfono</p>
+                            <p style={title}>Phone</p>
                             <a href="tel:+34 687155736"><p style={text}>+34 687155736</p></a>
 
                             {/*<p style={title}>Sede</p>
@@ -59,15 +59,15 @@ class Footer extends React.Component {
                             </a>
                         </Col>
                         <Col className="col-5">
-                            <p style={title}>Políticas</p>
-                            <Link to="politica-de-privacidad"><p style={text}>Políticas de privacidad</p></Link>
-                            <Link to="politica-de-cookies"><p style={text}>Política de cookies</p></Link>
-                            <Link to="#"><p style={text}>Términos de uso</p></Link>
+                            <p style={title}>Policy</p>
+                            <Link to="politica-de-privacidad"><p style={text}>Privacy policy</p></Link>
+                            <Link to="politica-de-cookies"><p style={text}>Cookies policy</p></Link>
+                            {/*<Link to="#"><p style={text}>Use terms</p></Link>*/}
 
                         </Col>
                         <Col className="col-2">
                             <p style={title}>FAQ</p>
-                            <Link to="/contacto"><p style={text}>¿Tienes dudas?</p></Link>
+                            <Link to="/contacto"><p style={text}>Have doubts?</p></Link>
                             <Link to="/"><img src={logo} alt="logo" className="img" /></Link>
                         </Col>
                     </Row>
