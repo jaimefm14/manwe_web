@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("../../asserts/fonts/Quicksand_Bold.otf"), url("../../asserts/fonts/Quicksand_Bold_Oblique.otf"), url("../../asserts/fonts/Quicksand_Book.otf"), url("../../asserts/fonts/Quicksand_Book_Oblique.otf"), url("../../asserts/fonts/Quicksand_Dash.otf"), url("../../asserts/fonts/Quicksand_Light.otf"), url("../../asserts/fonts/Quicksand_Light_Oblique.otf");
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: bold;
+  src: url("../../asserts/fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: normal;
+  src: url("../../asserts/fonts/Poppins-Regular.ttf");
+}
+.aboutUs {
+  background-image: none;
+  font-family: "Quicksand";
+}
+.aboutUs .background-grey {
+  background-image: url("../../asserts/images/about_us_background_40.png");
+}
+.aboutUs .col {
+  align-content: center;
+}
+.aboutUs .row {
+  padding-right: 3vw;
+  padding-left: 3vw;
+}
+.aboutUs .ourTeam {
+  text-align: center;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
+.aboutUs .espacio {
+  padding-bottom: 4%;
+}
+.aboutUs img {
+  margin-bottom: 2em;
+}
+.aboutUs .img_desc {
+  height: 23rem;
+}
+.aboutUs .arrow-img {
+  vertical-align: top;
+  margin: 0;
+}
+.aboutUs .top-text {
+  font-size: 10pt;
+  font-family: "Poppins";
+  font-weight: bold;
+  color: #5D5D5D;
+}

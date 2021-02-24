@@ -8,6 +8,7 @@ import station from '../../asserts/images/station.jpg';
 import esquiador from '../../asserts/images/esquiador.jpg';
 import fotomarcos from '../../asserts/images/fotomarcos.JPG';
 import fotoJaime from '../../asserts/images/jaime.jpg';
+import fotoJuanlu from '../../asserts/images/juanlu_aboutus.jpg';
 import { MenuHome } from '../nav/menu';
 
 const tagManagerArgs = {
@@ -53,7 +54,7 @@ class aboutUs extends React.Component {
                 <Row className="ourTeam">
                 
                     <Col>
-                        <img width="90%" src={esquiador} alt="Juan Luis Hernández" />
+                        <img src={fotoJuanlu} alt="Juan Luis Hernández" className="img_desc"/>
                         <h3>Juan Luis Hernández</h3>
                         <p>
                             CTO. Chief Technology Officer.
@@ -65,7 +66,7 @@ class aboutUs extends React.Component {
                         </p>
                     </Col>
                     <Col>
-                        <img width="85%" src={fotomarcos} alt="Marcos Redondo" />
+                        <img src={fotomarcos} alt="Marcos Redondo" className="img_desc"/>
                         <h3>Marcos Redondo</h3>
                         <p>
                             CEO. Chief Executive Officer.
@@ -75,7 +76,7 @@ class aboutUs extends React.Component {
                         </p>
                     </Col>
                     <Col>
-                        <img width="90%" src={fotoJaime} alt="Jaime Fernández" />
+                        <img src={fotoJaime} alt="Jaime Fernández" className="img_desc"/>
                         <h3>Jaime Fernández</h3>
                         <p>
                             CIO. Chief Information Officer.
