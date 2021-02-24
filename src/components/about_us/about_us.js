@@ -47,7 +47,11 @@ class aboutUs extends React.Component {
                         </Col>
                     </Row>
                 </Container>
+                <Row>
+                <p className="espacio"> </p>
+                    </Row> 
                 <Row className="ourTeam">
+                
                     <Col>
                         <img width="90%" src={esquiador} alt="Juan Luis Hernández" />
                         <h3>Juan Luis Hernández</h3>
@@ -83,6 +87,9 @@ class aboutUs extends React.Component {
                         </p>
                     </Col>
                 </Row>
+                <Row>
+                <p className="espacio"> </p>
+                    </Row> 
                 <Footer></Footer>
             </Container>
         )
