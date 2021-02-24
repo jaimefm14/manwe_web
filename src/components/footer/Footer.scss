@@ -14,10 +14,16 @@
     width: 100%;
     padding: 0;
     margin: 0;
-
+    
     .socialNetworks {
         width: 3vw;
-        padding-top: 2vw;
+        padding-top: 0vw;
+        padding-right: 1vw;
+    }
+
+    .linkedin {
+        width: 4.25vw;
+        padding-top: 0vw;
         padding-right: 1vw;
     }
 
@@ -26,8 +32,9 @@
     }
 
     .img {
-        height: 6vw;
-        margin-top: 3.5vw;
+        height: 8vw;
+        margin-top: 1vw;
+        margin-bottom: 2vw;
     }
 
 }
