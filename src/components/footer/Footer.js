@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 import logo from "../../asserts/images/Logo_Manwë.png";
 import facebook from "../../asserts/images/facebook.svg";
-import instagram from "../../asserts/images/instagram.svg";
+import instagram from "../../asserts/images/Instagram.svg";
 import linkedin from "../../asserts/images/linkedin.svg";
 import twitter from "../../asserts/images/twitter.svg";
 
