@@ -75,9 +75,9 @@ class Home extends React.Component {
                             <img src={sky} alt="esquiador" className="img" />
                         </Col>
                     </Row>
-                    <Row className="text">
+                    <Row className="left-text">
                         <Col>
-                            <img id="tarjeta" src={tarjeta} alt="Tarjeta Manwe" className="img" />
+                            <img id="tarjeta" src={tarjeta} alt="Tarjeta Manwe" className="img" style={{marginLeft:'0'}} />
                         </Col>
                         <div className="vl"></div>
                         <Col>
