@@ -25,7 +25,7 @@
 .privacidad{
     .header {
         width: 100%;
-        height: 15vw;
+        height: 13rem;
         background-image: url('../../asserts/images/background_politicas.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -35,24 +35,34 @@
             font-family: 'Poppins';
             margin:0 auto;
             color: rgba(0, 0, 0 ,1);
-            font-size: 5vw;
+            font-size: 4rem;
         }
     }
     .cont_text {
         background-color: #F2EFEF;
-        padding-left: 15vw;
-        padding-right: 15vw;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        padding-bottom: 2rem;
         font-family: 'Poppins';
-        font-size: 1vw;
+        font-size: 1rem;
 
         .title {
-            font-size: 1.5vw;
+            font-size: 1.2rem;
             font-weight: 600;
         }
 
         .text {
+            font-size: 1rem;
             padding: 0;
             font-weight: normal;
+        
+            li {
+                margin-left: 2rem;
+            }
         }
+
+    }
+    .bold {
+        font-weight: bold;
     }
 }
