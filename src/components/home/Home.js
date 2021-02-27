@@ -14,7 +14,6 @@ import { MenuHome } from '../nav/menu';
 //Import asserts
 import video from "../../asserts/images/Home1080.mp4"
 import logo from "../../asserts/images/Logo_Manwë.png"
-import Headerlogo from "../../asserts/images/Logo_Manwe_simple.png"
 import sky from "../../asserts/images/esquiador.png";
 import tarjeta from "../../asserts/images/tarjeta.png";
 import rpi from "../../asserts/images/raspberry.png";
@@ -52,7 +51,7 @@ class Home extends React.Component {
 
                         <MenuHome></MenuHome>
 
-                        <Row style={{paddingTop:'5vw'}}>
+                        <Row style={{paddingTop:'2rem'}}>
                             <Col>
                                 <Row className="justify-content-center">
                                     <img id="logo" src={logo} alt="Logo" className="img" />
@@ -81,7 +80,7 @@ class Home extends React.Component {
                         </Col>
                         <div className="vl"></div>
                         <Col>
-                            <p className="summary2" style={{ paddingLeft: `8vw` }}>
+                            <p className="summary2" style={{ paddingLeft: '3rem' }}>
                                 Manwë's transmitter card will keep you visible to our detection device.
                                 With its small size you will be able to carry it always with you.</p>
                         </Col>

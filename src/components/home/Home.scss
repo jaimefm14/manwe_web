@@ -28,14 +28,14 @@
         position: absolute; 
         background-attachment: fixed;
         width: 100%;
-        margin-top: -8vw;
+        margin-top: -8.3rem;
         top: 0;
         left: 0;
         right: 0;
     }
 
     #main p {
-        margin-top: 1vw;
+        margin-top: 1rem;
         font-family: 'Poppins';
         color: #5D5D5D;
     }
@@ -46,12 +46,12 @@
 
     #logo {
         width: auto;
-        max-width: 10vw;
+        max-width: 8rem;
         height: auto;
         display: block;
         z-index: 2;
-        padding-top: 8vw;
-        padding-bottom: 20vw;
+        padding-top: 10rem;
+        padding-bottom: 15rem;
         margin-left: auto;
         margin-right: auto;
     }
@@ -69,7 +69,7 @@
 
     .line {
         background-color: #36A9E1;
-        height: 0.2vw;
+        height: 0.15rem;
         width: 30%;
         display: inline-block;
         margin-top: 0%;
@@ -78,18 +78,18 @@
 
     .title {
         font-weight: bold;
-        font-size: 3.5vw !important;
+        font-size: 3rem !important;
         padding-bottom: 1%;
     }
 
     .subtitle {
         font-weight: bold;
-        font-size: 2vw;
+        font-size: 1.5rem;
     }
 
     .summary {
         line-height: 1.6;
-        font-size: 1.5vw;
+        font-size: 1.15rem;
         color:#333333;
         font-weight: 500;
         width: 70%;
@@ -97,55 +97,48 @@
 
     .summary2 {
         line-height: 1.6;
-        font-size: 1.5vw;
+        font-size: 1.15rem;
         color:#5D5D5D;
         font-weight: 500;
-        padding-top: 3vw;
-        padding-right: 10vw;
+        padding-top: 1.5rem;
+        padding-right: 10rem;
     }
 
     .img {
         float: left;
         margin-left: 20%;
         margin-top: 2%;
-        height: 30vw;
+        height: 20rem;
     }
 
     #rpi {
         float: left;
-        height: 20vw;
+        height: 15rem;
         margin-left: 0;
     }
 
-    #dron {
-        height: 15vw;
-        margin-left: 10%;
-    }
 
     #mobile {
         margin-left: 0;
+        height: 10rem;
+        padding-top: 2rem;
+        float: right;
     }
 
     .vl {
         border-left: 4px solid #36A9E1;
-        height: 15vw;
-    }
-
-    #mobile {
-        height: 13vw;
-        padding-top: 3vw;
-        float: right;
+        height: 15rem;
     }
 
     .summary-blue {
         font-family: 'Quicksand';
-        font-size: 1.5vw;
+        font-size: 1.15rem;
         line-height: 1.5;
         color: #000000;
-        padding-left: 2vw;
-        padding-top: 2vw;
-        padding-bottom: 5vw;
-        margin-right: 3vw;
+        padding-left: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        margin-right: 3rem;
         float: left;
         font-weight: normal;
     }
@@ -153,48 +146,32 @@
     .title-blue {
         font-family: 'Poppins';
         font-weight: bold;
-        font-size: 3.5vw;
+        font-size: 3rem;
         color: #000000;
-        margin-right: 3vw;
-        margin-top: 7vw !important; 
-        padding-left: 2vw;
+        margin-top: 4rem !important; 
         width: 60%;
         float: left;
         text-align: right;
     }
 
     #youtube {
-        height: 25vw;
         float: left;
         position: absolute;
-        bottom: 3vw;
+        bottom: 2.7rem;
         right: 0;
-        margin-right: 5vw;
+        margin-right: 3.5rem;
     }
 
     #image-blue {
         display: contents;
     }
 
-    .language{
-        text-align: end;
-    }
-    img.language  {
-        float: right;
-        margin-top: -1vw;
-        margin-right: -0.5vw;
-    }
-
-    .dropdown  {
-        margin-top: 2vw;
-        right: 0;
-    }
 
     .intro {
         background: #F0F0F0;
-        padding-left: 8vw;
-        padding-top: 9vw;
-        padding-bottom: 5vw;
+        padding-left: 10rem;
+        padding-top: 7rem;
+        padding-bottom: 3rem;
         line-height: 1;
         font-family: 'Poppins';
         font-size: bold
@@ -202,9 +179,9 @@
 
     .text {
         background: #FFFFFF;
-        padding-left: 8vw;
-        padding-top: 5vw;
-        padding-bottom: 5vw;;
+        padding-left: 10rem;
+        padding-top: 7rem;
+        padding-bottom: 3rem;;
         line-height: 1;
         font-family: 'Poppins';
         font-size: bold;
@@ -212,9 +189,9 @@
 
     .left-text{
         background: #FFFFFF;
-        padding-left: 0vw;
-        padding-top: 5vw;
-        padding-bottom: 5vw;;
+        padding-left: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;;
         line-height: 1;
         font-family: 'Poppins';
         font-size: bold;
@@ -222,8 +199,8 @@
 
     .blue {
         background: #36A9E1;
-        padding-left: 5vw;
-        padding-right: 10vw;
+        padding-left: 3rem;
+        padding-right: 7rem;
     }
 }
 
