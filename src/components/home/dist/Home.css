@@ -98,10 +98,8 @@
   margin-top: 2%;
   height: 20rem;
 }
-.home #rpi {
+.home #taller {
   float: left;
-  height: 15rem;
-  margin-left: 0;
 }
 .home #mobile {
   margin-left: 0;

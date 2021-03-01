@@ -14,9 +14,10 @@ import { MenuHome } from '../nav/menu';
 //Import asserts
 import video from "../../asserts/images/Home1080.mp4"
 import logo from "../../asserts/images/Logo_Manwë.png"
+import Headerlogo from "../../asserts/images/Logo_Manwe_simple.png"
 import sky from "../../asserts/images/esquiador.png";
 import tarjeta from "../../asserts/images/tarjeta.png";
-import rpi from "../../asserts/images/raspberry.png";
+import taller from "../../asserts/images/taller.jpg";
 import mobile from "../../asserts/images/mobile.png";
 import youtube from "../../asserts/images/youtube.png";
 
@@ -51,7 +52,7 @@ class Home extends React.Component {
 
                         <MenuHome></MenuHome>
 
-                        <Row style={{paddingTop:'2rem'}}>
+                        <Row style={{paddingTop:'5vw'}}>
                             <Col>
                                 <Row className="justify-content-center">
                                     <img id="logo" src={logo} alt="Logo" className="img" />
@@ -76,11 +77,11 @@ class Home extends React.Component {
                     </Row>
                     <Row className="left-text">
                         <Col>
-                            <img id="tarjeta" src={tarjeta} alt="Tarjeta Manwe" className="img" style={{marginLeft:'0'}} />
+                            <img id="tarjeta" src={tarjeta} alt="Tarjeta Manwe" className="img" style={{marginLeft:'10'}} />
                         </Col>
                         <div className="vl"></div>
                         <Col>
-                            <p className="summary2" style={{ paddingLeft: '3rem' }}>
+                            <p className="summary2" style={{ paddingLeft: `8vw` }}>
                                 Manwë's transmitter card will keep you visible to our detection device.
                                 With its small size you will be able to carry it always with you.</p>
                         </Col>
@@ -92,7 +93,7 @@ class Home extends React.Component {
                             It can be carried by hand, on rescue dogs and drones.</p>
                         </Col>
                         <Col>
-                            <img id="rpi" src={rpi} alt="Raspberry" className="img" />
+                            <img id="taller" src={taller} alt="Taller" className="img" style={{marginLeft:'0'}}/>
                         </Col>
                     </Row>
                     <Row className="blue">
