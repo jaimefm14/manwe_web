@@ -15,7 +15,7 @@ import { MenuHome } from '../nav/menu';
 import video from "../../asserts/images/Home1080.mp4"
 import logo from "../../asserts/images/Logo_Manwë.png"
 import Headerlogo from "../../asserts/images/Logo_Manwe_simple.png"
-import sky from "../../asserts/images/esquiador.png";
+import skier from "../../asserts/images/1.JPG";
 import tarjeta from "../../asserts/images/tarjeta.png";
 import taller from "../../asserts/images/taller.jpg";
 import mobile from "../../asserts/images/mobile.png";
@@ -72,7 +72,7 @@ class Home extends React.Component {
                             </p>
                         </Col>
                         <Col>
-                            <img src={sky} alt="esquiador" className="img" />
+                            <img src={skier} alt="esquiador" className="img" style={{marginLeft:'0'}}/>
                         </Col>
                     </Row>
                     <Row className="left-text">

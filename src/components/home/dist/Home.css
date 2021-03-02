@@ -98,6 +98,9 @@
   margin-top: 2%;
   height: 20rem;
 }
+.home #skier {
+  float: left;
+}
 .home #taller {
   float: left;
 }
